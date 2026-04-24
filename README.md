@@ -85,6 +85,16 @@ ALLOW  (0) - read-only
 
 RALF also scans **file writes** for SQL injection, OS injection, reverse shells, credential access, code injection, and unsafe deserialization before the agent writes them to disk.
 
+### See it in action
+
+The dashboard shows every verdict in real time. Normal development flows through green. Attacks light up red. Click any event to see the full score breakdown, rule hits, and override controls.
+
+<p align="center">
+  <img src="docs/images/dashboard-live-feed.png" alt="RALF Dashboard - Live Feed showing blocked attacks and allowed development commands" width="100%">
+</p>
+
+*An AI agent building a Flask webapp with SQLite (all green). Then three attacks: a vulnerable package install (CVE detected), a SQL injection in the app code (CWE-89 caught), and a curl-pipe-to-bash from GitHub (download_exec blocked). Click any blocked event to override the decision or create a rule.*
+
 ---
 
 ## Pre-Execution File Scanning
