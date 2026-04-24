@@ -1,0 +1,120 @@
+{
+  "version": 1,
+  "source": "OWASP Top 10 — 2021",
+  "url": "https://owasp.org/Top10/",
+  "last_updated": "2026-04-15",
+  "description": "OWASP Top 10 2021 metadata bundle. Every RALF Free finding with a CWE tag is cross-referenced to its OWASP category via this file.",
+  "categories": [
+    {
+      "id": "A01",
+      "name": "Broken Access Control",
+      "description": "Failures in enforcing limitations on what authenticated users are allowed to do. Includes privilege escalation, metadata manipulation (JWT/cookie tampering), CORS misconfiguration, path traversal exposing unauthorized files.",
+      "related_cwes": ["CWE-22", "CWE-284", "CWE-285", "CWE-352", "CWE-434", "CWE-601", "CWE-639", "CWE-862", "CWE-863", "CWE-284", "CWE-201", "CWE-219", "CWE-275", "CWE-276", "CWE-284", "CWE-441", "CWE-497", "CWE-538", "CWE-540", "CWE-552", "CWE-651", "CWE-668", "CWE-706", "CWE-1275"],
+      "ralf_coverage": ["native:path-traversal", "native:csrf-missing", "native:open-redirect", "native:unrestricted-upload", "semgrep:p/owasp-top-ten-a01"],
+      "cheat_sheet_urls": [
+        "https://cheatsheetseries.owasp.org/cheatsheets/Access_Control_Cheat_Sheet.html",
+        "https://cheatsheetseries.owasp.org/cheatsheets/Authorization_Cheat_Sheet.html"
+      ]
+    },
+    {
+      "id": "A02",
+      "name": "Cryptographic Failures",
+      "description": "Previously 'Sensitive Data Exposure'. Failures in protecting data in transit and at rest. Includes use of deprecated cryptographic algorithms, hardcoded secrets, weak key management, missing TLS validation, insecure password storage.",
+      "related_cwes": ["CWE-261", "CWE-296", "CWE-310", "CWE-319", "CWE-321", "CWE-322", "CWE-323", "CWE-324", "CWE-325", "CWE-326", "CWE-327", "CWE-328", "CWE-329", "CWE-330", "CWE-331", "CWE-335", "CWE-336", "CWE-337", "CWE-338", "CWE-340", "CWE-347", "CWE-523", "CWE-720", "CWE-757", "CWE-759", "CWE-760", "CWE-780", "CWE-798", "CWE-818", "CWE-916", "CWE-295"],
+      "ralf_coverage": ["native:weak-crypto", "native:cert-validation-disabled", "native:hardcoded-credentials", "native:weak-password-hash", "credential-redaction", "semgrep:p/cryptography", "semgrep:p/secrets", "semgrep:p/gitleaks"],
+      "cheat_sheet_urls": [
+        "https://cheatsheetseries.owasp.org/cheatsheets/Cryptographic_Storage_Cheat_Sheet.html",
+        "https://cheatsheetseries.owasp.org/cheatsheets/Key_Management_Cheat_Sheet.html",
+        "https://cheatsheetseries.owasp.org/cheatsheets/Transport_Layer_Security_Cheat_Sheet.html"
+      ]
+    },
+    {
+      "id": "A03",
+      "name": "Injection",
+      "description": "Flaws where untrusted data is sent to an interpreter as part of a command or query. Includes SQL, NoSQL, OS, LDAP, XPath, XSS, and template injection.",
+      "related_cwes": ["CWE-20", "CWE-74", "CWE-75", "CWE-77", "CWE-78", "CWE-79", "CWE-80", "CWE-83", "CWE-87", "CWE-88", "CWE-89", "CWE-90", "CWE-91", "CWE-93", "CWE-94", "CWE-95", "CWE-96", "CWE-97", "CWE-98", "CWE-99", "CWE-113", "CWE-116", "CWE-138", "CWE-184", "CWE-470", "CWE-471", "CWE-564", "CWE-610", "CWE-643", "CWE-644", "CWE-652", "CWE-917"],
+      "ralf_coverage": ["native:sql-interpolation", "native:sql-raw-grammar", "native:os-command-injection", "native:shell-mode-invocation", "native:dynamic-eval-on-input", "native:dynamic-exec-on-input", "semgrep:p/sqli", "semgrep:p/command-injection", "semgrep:p/xss"],
+      "cheat_sheet_urls": [
+        "https://cheatsheetseries.owasp.org/cheatsheets/Injection_Prevention_Cheat_Sheet.html",
+        "https://cheatsheetseries.owasp.org/cheatsheets/SQL_Injection_Prevention_Cheat_Sheet.html",
+        "https://cheatsheetseries.owasp.org/cheatsheets/OS_Command_Injection_Defense_Cheat_Sheet.html",
+        "https://cheatsheetseries.owasp.org/cheatsheets/Cross_Site_Scripting_Prevention_Cheat_Sheet.html"
+      ]
+    },
+    {
+      "id": "A04",
+      "name": "Insecure Design",
+      "description": "Missing or ineffective security controls at the design level. Not about implementation bugs — about architectural gaps. Predictable resource generation, missing rate limiting, weak state machines, unsafe design defaults.",
+      "related_cwes": ["CWE-73", "CWE-183", "CWE-209", "CWE-213", "CWE-235", "CWE-256", "CWE-257", "CWE-266", "CWE-269", "CWE-280", "CWE-311", "CWE-312", "CWE-313", "CWE-316", "CWE-419", "CWE-430", "CWE-434", "CWE-444", "CWE-451", "CWE-472", "CWE-501", "CWE-522", "CWE-525", "CWE-539", "CWE-579", "CWE-598", "CWE-602", "CWE-642", "CWE-646", "CWE-650", "CWE-653", "CWE-656", "CWE-657", "CWE-799", "CWE-807", "CWE-840", "CWE-841", "CWE-927", "CWE-1021", "CWE-1173", "CWE-400"],
+      "ralf_coverage": ["native:weak-prng-in-security", "native:predictable-token-generation", "semgrep:p/insecure-design"],
+      "cheat_sheet_urls": [
+        "https://cheatsheetseries.owasp.org/cheatsheets/Secure_Product_Design_Cheat_Sheet.html",
+        "https://cheatsheetseries.owasp.org/cheatsheets/Threat_Modeling_Cheat_Sheet.html"
+      ]
+    },
+    {
+      "id": "A05",
+      "name": "Security Misconfiguration",
+      "description": "Missing security hardening, unnecessary features enabled, default credentials, overly permissive CORS, verbose error messages, out-of-date components with known vulnerabilities.",
+      "related_cwes": ["CWE-2", "CWE-11", "CWE-13", "CWE-15", "CWE-16", "CWE-260", "CWE-315", "CWE-520", "CWE-526", "CWE-537", "CWE-541", "CWE-547", "CWE-611", "CWE-614", "CWE-756", "CWE-776", "CWE-942", "CWE-1004", "CWE-1032", "CWE-1174", "CWE-732"],
+      "ralf_coverage": ["native:xxe-parser-config", "native:world-writable-perms", "host-posture-scanner (40 checks)", "semgrep:p/security-audit", "semgrep:p/dockerfile", "semgrep:p/kubernetes", "semgrep:p/terraform"],
+      "cheat_sheet_urls": [
+        "https://cheatsheetseries.owasp.org/cheatsheets/Configuration_Cheat_Sheet.html",
+        "https://cheatsheetseries.owasp.org/cheatsheets/XML_External_Entity_Prevention_Cheat_Sheet.html"
+      ]
+    },
+    {
+      "id": "A06",
+      "name": "Vulnerable and Outdated Components",
+      "description": "Use of components with known vulnerabilities. Covered by RALF's supply-chain layer: CVE federation (NVD + GHSA + OSV) + typosquat detection + downgrade-flag detection across 7 package ecosystems.",
+      "related_cwes": ["CWE-1104", "CWE-937", "CWE-1035", "CWE-1026"],
+      "ralf_coverage": ["supply-chain:cve-federation", "supply-chain:typosquat-levenshtein", "supply-chain:downgrade-flags", "semgrep:p/supply-chain"],
+      "cheat_sheet_urls": [
+        "https://cheatsheetseries.owasp.org/cheatsheets/Vulnerable_Dependency_Management_Cheat_Sheet.html"
+      ]
+    },
+    {
+      "id": "A07",
+      "name": "Identification and Authentication Failures",
+      "description": "Weak authentication: credential stuffing, default or weak passwords, session-ID exposure, missing MFA, improper credential recovery.",
+      "related_cwes": ["CWE-255", "CWE-259", "CWE-287", "CWE-288", "CWE-290", "CWE-294", "CWE-295", "CWE-297", "CWE-300", "CWE-302", "CWE-304", "CWE-306", "CWE-307", "CWE-346", "CWE-384", "CWE-521", "CWE-613", "CWE-620", "CWE-640", "CWE-798", "CWE-940", "CWE-1216"],
+      "ralf_coverage": ["native:hardcoded-credentials", "native:weak-password-hash", "native:missing-auth-route", "semgrep:p/auth", "semgrep:p/jwt"],
+      "cheat_sheet_urls": [
+        "https://cheatsheetseries.owasp.org/cheatsheets/Authentication_Cheat_Sheet.html",
+        "https://cheatsheetseries.owasp.org/cheatsheets/Credential_Stuffing_Prevention_Cheat_Sheet.html",
+        "https://cheatsheetseries.owasp.org/cheatsheets/Session_Management_Cheat_Sheet.html"
+      ]
+    },
+    {
+      "id": "A08",
+      "name": "Software and Data Integrity Failures",
+      "description": "Code and infrastructure that does not protect against integrity violations. Includes unsigned updates, unvalidated serialized data, insecure CI/CD pipelines.",
+      "related_cwes": ["CWE-345", "CWE-353", "CWE-426", "CWE-494", "CWE-502", "CWE-565", "CWE-784", "CWE-829", "CWE-830", "CWE-915"],
+      "ralf_coverage": ["native:unsafe-deserialization", "semgrep:p/cwe-502", "supply-chain:downgrade-flags"],
+      "cheat_sheet_urls": [
+        "https://cheatsheetseries.owasp.org/cheatsheets/Deserialization_Cheat_Sheet.html"
+      ]
+    },
+    {
+      "id": "A09",
+      "name": "Security Logging and Monitoring Failures",
+      "description": "Insufficient audit logging for security-relevant events; secrets leaking into logs; logs vulnerable to injection; missing alerting on anomalies.",
+      "related_cwes": ["CWE-117", "CWE-223", "CWE-532", "CWE-778"],
+      "ralf_coverage": ["native:log-secret-exposure", "native:log-injection", "native:missing-audit-log", "credential-redaction (15 patterns on audit log)"],
+      "cheat_sheet_urls": [
+        "https://cheatsheetseries.owasp.org/cheatsheets/Logging_Cheat_Sheet.html",
+        "https://cheatsheetseries.owasp.org/cheatsheets/Logging_Vocabulary_Cheat_Sheet.html"
+      ]
+    },
+    {
+      "id": "A10",
+      "name": "Server-Side Request Forgery (SSRF)",
+      "description": "Web application fetches a remote resource without validating user-supplied URL. Allows attacker to coerce the server into reaching attacker-chosen destinations.",
+      "related_cwes": ["CWE-918"],
+      "ralf_coverage": ["native:ssrf-user-url", "semgrep:p/ssrf"],
+      "cheat_sheet_urls": [
+        "https://cheatsheetseries.owasp.org/cheatsheets/Server_Side_Request_Forgery_Prevention_Cheat_Sheet.html"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,681 @@
+{
+  "version": 2,
+  "source": "loobins.io",
+  "license_note": "LOOBins catalog is MIT-licensed public security knowledge, sourced from github.com/infosecB/LOOBins and refreshed via ralf-free sync loobins.",
+  "upstream_url": "https://codeload.github.com/infosecB/LOOBins/zip/refs/heads/main",
+  "last_updated": "2026-04-23",
+  "description": "Complete macOS offensive-binary catalog synced from the LOOBins community repository. Each entry carries capability tags derived from MITRE ATT&CK tactics plus the MITRE technique IDs the community has mapped to the binary.",
+  "capability_tags_glossary": {
+    "execution": "Arbitrary code execution",
+    "persistence": "Install / register long-lived footholds",
+    "privilege_escalation": "Gain higher integrity",
+    "defense_evasion": "Bypass or disable security controls",
+    "credential_access": "Read / dump / exfiltrate secrets",
+    "discovery": "Enumerate system state",
+    "lateral_movement": "Move between hosts / sessions",
+    "collection": "Gather target data",
+    "exfiltration": "Send data outbound",
+    "command_and_control": "Remote control channels",
+    "impact": "Destroy / modify / deny access",
+    "resource_hijack": "Appropriate system resources"
+  },
+  "binaries": [
+    {
+      "name": "caffeinate",
+      "path": "/usr/bin/caffeinate",
+      "short_description": "Prevent the system from sleeping on behalf of a utility.",
+      "capability_tags": [
+        "execution"
+      ],
+      "mitre_techniques": [],
+      "example_use": "Make caffeinate fork a process and hold an assertion that prevents idle sleep as long as that process is running",
+      "intent": "spawn_shell"
+    },
+    {
+      "name": "chflags",
+      "path": "/usr/bin/chflags",
+      "short_description": "Changes file or directory flags",
+      "capability_tags": [],
+      "mitre_techniques": [],
+      "example_use": "Add the hidden flag to a file or directory to prevent it from being \nvisible in Finder and Terminal.",
+      "intent": "unknown"
+    },
+    {
+      "name": "codesign",
+      "path": "/usr/bin/codesign",
+      "short_description": "Create, manipulate and verify code signatures.",
+      "capability_tags": [],
+      "mitre_techniques": [],
+      "example_use": "This command forcefully re-signs the MyApp.app application with an ad-hoc signature, applying the signature deeply to all nested code within the app",
+      "intent": "unknown"
+    },
+    {
+      "name": "csrutil",
+      "path": "/usr/bin/csrutil",
+      "short_description": "Configure or view system security policies.",
+      "capability_tags": [
+        "discovery"
+      ],
+      "mitre_techniques": [
+        "T1518",
+        "T1518.001"
+      ],
+      "example_use": "disable SIP (System Integrity Protection) - requires booting into recovery mode",
+      "intent": "unknown"
+    },
+    {
+      "name": "defaults",
+      "path": "/usr/bin/defaults",
+      "short_description": "Read, write, and delete user preference values.",
+      "capability_tags": [
+        "discovery",
+        "persistence"
+      ],
+      "mitre_techniques": [],
+      "example_use": "The following command can be used to disable Gatekeepers rearm functionality. This command requires root privileges.",
+      "intent": "unknown"
+    },
+    {
+      "name": "disown",
+      "path": "shell built-in command (bash)",
+      "short_description": "Prevents a process from being terminated when a shell session or terminal is closed.",
+      "capability_tags": [
+        "persistence"
+      ],
+      "mitre_techniques": [],
+      "example_use": "The following command downloads a remote binary, sets it to executable, executes the binary, disowns it from the shell it spawned from, and closes the terminal session.",
+      "intent": "persist"
+    },
+    {
+      "name": "ditto",
+      "path": "/usr/bin/ditto",
+      "short_description": "Copy files and directories while preserving file attributes and permissions.",
+      "capability_tags": [
+        "collection",
+        "exfiltration",
+        "persistence"
+      ],
+      "mitre_techniques": [],
+      "example_use": "The following command gathers and compresses (-c) files from the specified folder and writes them to a zip (-k) file.",
+      "intent": "read"
+    },
+    {
+      "name": "dns-sd",
+      "path": "/usr/bin/dns-sd",
+      "short_description": "Discover local network services using the DNS-Based Service Discovery (SD) protocol.",
+      "capability_tags": [
+        "discovery"
+      ],
+      "mitre_techniques": [],
+      "example_use": "Hosts serving SSH can be discovered using the _ssh._tcp service string.",
+      "intent": "recon"
+    },
+    {
+      "name": "dscacheutil",
+      "path": "/usr/bin/dscacheutil",
+      "short_description": "gather information, statistics and initiate queries to the Directory Service cache.",
+      "capability_tags": [
+        "discovery"
+      ],
+      "mitre_techniques": [],
+      "example_use": "List the user information",
+      "intent": "recon"
+    },
+    {
+      "name": "dscl",
+      "path": "/usr/bin/dscl",
+      "short_description": "Interact with Directory Services.",
+      "capability_tags": [
+        "discovery",
+        "persistence"
+      ],
+      "mitre_techniques": [
+        "T1136",
+        "T1136.001"
+      ],
+      "example_use": "Enumerate all local users.",
+      "intent": "recon"
+    },
+    {
+      "name": "dsconfigad",
+      "path": "/usr/sbin/dsconfigad",
+      "short_description": "retrieves/changes configuration for Directory Services Active Directory Plugin.",
+      "capability_tags": [
+        "discovery"
+      ],
+      "mitre_techniques": [],
+      "example_use": "Retrieves the Active Directory configuration",
+      "intent": "recon"
+    },
+    {
+      "name": "dsexport",
+      "path": "/usr/bin/dsexport",
+      "short_description": "Export data from an Open Directory directory services server.",
+      "capability_tags": [
+        "discovery"
+      ],
+      "mitre_techniques": [],
+      "example_use": "Export the local host user information to a file",
+      "intent": "recon"
+    },
+    {
+      "name": "funzip",
+      "path": "/usr/bin/funzip",
+      "short_description": "The malicious binaries use funzip to extract the malicious binary with a password and using head or tail commands.",
+      "capability_tags": [
+        "execution"
+      ],
+      "mitre_techniques": [],
+      "example_use": "funzip is a macOS utility used to extract ZIP or gzip files directly to output. Malicious binaries misuse funzip, along with head or tail, to extract and reconstruct password-protected malicious paylo",
+      "intent": "spawn_shell"
+    },
+    {
+      "name": "GetFileInfo",
+      "path": "/usr/bin/GetFileInfo",
+      "short_description": "Get attributes of files and directories.",
+      "capability_tags": [
+        "discovery"
+      ],
+      "mitre_techniques": [],
+      "example_use": "A bash or zsh oneliner can provide an attacker with information about specific files of interest.",
+      "intent": "recon"
+    },
+    {
+      "name": "hdiutil",
+      "path": "/usr/bin/hdiutil",
+      "short_description": "Manipulate disk images using the DiskImages framework.",
+      "capability_tags": [
+        "collection",
+        "execution"
+      ],
+      "mitre_techniques": [],
+      "example_use": "Uses hdiutil to mount a malicious dmg file to the system.",
+      "intent": "spawn_shell"
+    },
+    {
+      "name": "ioreg",
+      "path": "/usr/sbin/ioreg",
+      "short_description": "Displays a hierarchial view of the I/O Kit registry.",
+      "capability_tags": [
+        "collection",
+        "discovery"
+      ],
+      "mitre_techniques": [],
+      "example_use": "The following command will display a list of keys that contain \"CGSSession\". If the key \"CGSSessionScreenIsLocked\" is present, the screen is actively locked.",
+      "intent": "recon"
+    },
+    {
+      "name": "kextstat",
+      "path": "/usr/sbin/kextstat",
+      "short_description": "Display the status of loaded kernel extensions (kexts)",
+      "capability_tags": [
+        "discovery"
+      ],
+      "mitre_techniques": [],
+      "example_use": "Uses kexstat showloaded to display kernel extensions and address in kernel memory it has been loaded",
+      "intent": "recon"
+    },
+    {
+      "name": "last",
+      "path": "/usr/bin/last",
+      "short_description": "Show last user logins and TTYs.",
+      "capability_tags": [
+        "discovery"
+      ],
+      "mitre_techniques": [],
+      "example_use": "The following command will display sessions that are currently active.",
+      "intent": "recon"
+    },
+    {
+      "name": "launchctl",
+      "path": "/bin/launchctl",
+      "short_description": "Interact with LaunchAgents and LaunchDaemons.",
+      "capability_tags": [
+        "execution",
+        "persistence"
+      ],
+      "mitre_techniques": [
+        "T1543",
+        "T1543.001",
+        "T1569"
+      ],
+      "example_use": "A oneliner that will load a plist as a LaunchAgent or LaunchDaemon, achieving persistence on a target machine. This command requires root privileges.",
+      "intent": "spawn_shell"
+    },
+    {
+      "name": "log",
+      "path": "/usr/bin/log",
+      "short_description": "Access system log messages from Apple Unified Logging (AUL).",
+      "capability_tags": [],
+      "mitre_techniques": [],
+      "example_use": "An attacker can cover up their tracks by removing all log messages using the following command. Requires root privileges.",
+      "intent": "unknown"
+    },
+    {
+      "name": "lsregister",
+      "path": "/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/LaunchServices.framework/Versions/A/Support/lsregister",
+      "short_description": "Interact with the macOS Launch Services database.",
+      "capability_tags": [
+        "discovery",
+        "impact"
+      ],
+      "mitre_techniques": [],
+      "example_use": "The -f flag can be used to force an update of the Launch Services database. This can be used to quickly register a custom URL scheme that points to a malicious app.",
+      "intent": "recon"
+    },
+    {
+      "name": "mdfind",
+      "path": "/usr/bin/mdfind",
+      "short_description": "Locate files using the Spotlight database.",
+      "capability_tags": [
+        "discovery"
+      ],
+      "mitre_techniques": [],
+      "example_use": "A bash or zsh oneliner can cause mdfind to provide an attacker with live updates to the number of files on a system.",
+      "intent": "recon"
+    },
+    {
+      "name": "mdls",
+      "path": "/usr/bin/mdls",
+      "short_description": "List metadata attributes for the specified file.",
+      "capability_tags": [
+        "discovery"
+      ],
+      "mitre_techniques": [],
+      "example_use": "Use mdls to validate payload download sources and timestamps to guard against sandbox executions.",
+      "intent": "unknown"
+    },
+    {
+      "name": "mktemp",
+      "path": "/usr/bin/mktemp",
+      "short_description": "Create a temporary file or directory and return the file/directory name to stdout",
+      "capability_tags": [],
+      "mitre_techniques": [],
+      "example_use": "The following command can be used to generate a random directory name for staging payloads",
+      "intent": "unknown"
+    },
+    {
+      "name": "networksetup",
+      "path": "/usr/sbin/networksetup",
+      "short_description": "Configure network settings in System Preferences.",
+      "capability_tags": [
+        "discovery"
+      ],
+      "mitre_techniques": [],
+      "example_use": "Use networksetup to display services with corresponding port and device in order they are tried for connecting to a network.",
+      "intent": "recon"
+    },
+    {
+      "name": "notifyutil",
+      "path": "/usr/bin/notifyutil",
+      "short_description": "Monitor and post Darwin notifications for inter-process communication and system event monitoring.",
+      "capability_tags": [
+        "collection",
+        "discovery"
+      ],
+      "mitre_techniques": [],
+      "example_use": "An attacker can register for system notification keys to detect when the user locks their screen, changes network state, or other system events without using more easily detected APIs. The following e",
+      "intent": "recon"
+    },
+    {
+      "name": "nscurl",
+      "path": "/usr/bin/nscurl",
+      "short_description": "Download, upload, and read files.",
+      "capability_tags": [],
+      "mitre_techniques": [],
+      "example_use": "Download file and ignore cert checking",
+      "intent": "unknown"
+    },
+    {
+      "name": "nvram",
+      "path": "/usr/sbin/nvram",
+      "short_description": "Access and manage the host's non-volatile random-access memory (NVRAM).",
+      "capability_tags": [
+        "discovery"
+      ],
+      "mitre_techniques": [],
+      "example_use": "The -p option prints all the nvram variables that contain some potentially sensitive information like WiFi SSIDs and Bluetooth devices.",
+      "intent": "recon"
+    },
+    {
+      "name": "odutil",
+      "path": "/usr/bin/odutil",
+      "short_description": "odutil allows caller to examine or change state of opendirectoryd",
+      "capability_tags": [
+        "discovery"
+      ],
+      "mitre_techniques": [],
+      "example_use": "List all available node names",
+      "intent": "recon"
+    },
+    {
+      "name": "open",
+      "path": "/usr/bin/open",
+      "short_description": "Open files, folders, apps, URLs, and header files.",
+      "capability_tags": [
+        "execution"
+      ],
+      "mitre_techniques": [],
+      "example_use": "The open command can be used to open a malicious macOS app from the terminal.",
+      "intent": "spawn_shell"
+    },
+    {
+      "name": "osacompile",
+      "path": "/usr/bin/osacompile",
+      "short_description": "Compile AppleScripts or OSA language scripts.",
+      "capability_tags": [],
+      "mitre_techniques": [],
+      "example_use": "The following command downloads an applescript payload from getpayload.com and compiles it into an app.",
+      "intent": "unknown"
+    },
+    {
+      "name": "osascript",
+      "path": "/usr/bin/osascript",
+      "short_description": "Execute AppleScripts and other OSA language scripts and commands.",
+      "capability_tags": [
+        "collection",
+        "discovery",
+        "execution"
+      ],
+      "mitre_techniques": [],
+      "example_use": "A bash loop can gather clipboard contents over a defined time period. The following command calls /usr/bin/osascript -e 'return (the clipboard)' indefinitely every 10 seconds and writes clipboard cont",
+      "intent": "read"
+    },
+    {
+      "name": "pbpaste",
+      "path": "/usr/bin/pbpaste",
+      "short_description": "Paste the contents of clipboard to the terminal.",
+      "capability_tags": [
+        "collection"
+      ],
+      "mitre_techniques": [],
+      "example_use": "A pbpaste bash loop can continuously collect clipboard contents every x minutes and write contents to a file (or another location). This may allow an attacker to gather user credentials or collect oth",
+      "intent": "unknown"
+    },
+    {
+      "name": "pkill",
+      "path": "/usr/bin/pkill",
+      "short_description": "Kill processes by name or pattern.",
+      "capability_tags": [
+        "impact"
+      ],
+      "mitre_techniques": [],
+      "example_use": "Terminate defensive processes like firewalls, AV, or monitoring tools.",
+      "intent": "unknown"
+    },
+    {
+      "name": "plutil",
+      "path": "/usr/bin/plutil",
+      "short_description": "Read, create or edit plist files.",
+      "capability_tags": [],
+      "mitre_techniques": [
+        "T1647"
+      ],
+      "example_use": "plutil can be used to set the \"LSUIElement\" attribute to true which will force the targeted app to run without the UI and dock icon.",
+      "intent": "unknown"
+    },
+    {
+      "name": "profiles",
+      "path": "/usr/bin/profiles",
+      "short_description": "List and remove configuration profiles.",
+      "capability_tags": [
+        "discovery",
+        "impact"
+      ],
+      "mitre_techniques": [],
+      "example_use": "The following command determines whether device is DEP(Device Enrolment Program) enabled and output the DEP information.",
+      "intent": "recon"
+    },
+    {
+      "name": "safaridriver",
+      "path": "/System/Cryptexes/App/usr/bin/safaridriver",
+      "short_description": "Enable the WebDriver Safari browser API for Selenium testing.",
+      "capability_tags": [
+        "exfiltration"
+      ],
+      "mitre_techniques": [],
+      "example_use": "The following command can be used to enable the WebDriver Safari browser API. The command must be run as root or with sudo privileges.",
+      "intent": "unknown"
+    },
+    {
+      "name": "say",
+      "path": "/usr/bin/say",
+      "short_description": "Convert text to audible speech.",
+      "capability_tags": [
+        "collection",
+        "discovery"
+      ],
+      "mitre_techniques": [],
+      "example_use": "The following command can read and process sensitive files and redirects the output to a file..",
+      "intent": "unknown"
+    },
+    {
+      "name": "screencapture",
+      "path": "/usr/sbin/screencapture",
+      "short_description": "Capture a screenshot from command line.",
+      "capability_tags": [
+        "collection"
+      ],
+      "mitre_techniques": [],
+      "example_use": "The following command demonstrates how an attacker can use the tool to capture screenshots every 10 seconds. The -x flag prevents snapshot sounds from being played.",
+      "intent": "read"
+    },
+    {
+      "name": "scutil",
+      "path": "/usr/bin/scutil",
+      "short_description": "Display basic network information, check the dns config, set the computer hostname and perform several other tasks.",
+      "capability_tags": [
+        "discovery"
+      ],
+      "mitre_techniques": [],
+      "example_use": "Get the current DNS configuration of the systems",
+      "intent": "recon"
+    },
+    {
+      "name": "security",
+      "path": "/usr/bin/security",
+      "short_description": "Interact with Keychain, macOS's built-in password manager.",
+      "capability_tags": [],
+      "mitre_techniques": [],
+      "example_use": "This command will dump keychain passwords from login.keychain",
+      "intent": "unknown"
+    },
+    {
+      "name": "SetFile",
+      "path": "/usr/bin/SetFile",
+      "short_description": "Set attributes of files and directories.",
+      "capability_tags": [
+        "persistence"
+      ],
+      "mitre_techniques": [],
+      "example_use": "A bash or zsh oneliner can allow an attacker to set the file attribute to invisible. This action can establish persistence and evade detection for malicious files on the system.",
+      "intent": "persist"
+    },
+    {
+      "name": "sfltool",
+      "path": "/usr/bin/sfltool",
+      "short_description": "Binary to manage the Shared File List framework.",
+      "capability_tags": [
+        "discovery"
+      ],
+      "mitre_techniques": [],
+      "example_use": "Identify all current login and background items configured on the system.",
+      "intent": "recon"
+    },
+    {
+      "name": "softwareupdate",
+      "path": "/usr/sbin/softwareupdate",
+      "short_description": "Interact with the macOS software update service.",
+      "capability_tags": [
+        "discovery"
+      ],
+      "mitre_techniques": [],
+      "example_use": "Determine OS and Safari version by enumerating the available software updates.",
+      "intent": "recon"
+    },
+    {
+      "name": "spctl",
+      "path": "/usr/sbin/spctl",
+      "short_description": "Manage the security assessment policy subsystem, Gatekeeper settings, and control which apps are allowed to run on the system.",
+      "capability_tags": [],
+      "mitre_techniques": [],
+      "example_use": "The --master-disable switch disables Gatekeeper. The command must be run with root/sudo permission.",
+      "intent": "unknown"
+    },
+    {
+      "name": "sqlite3",
+      "path": "/usr/bin/sqlite3",
+      "short_description": "Query and manage sqlite databases.",
+      "capability_tags": [
+        "collection",
+        "discovery"
+      ],
+      "mitre_techniques": [],
+      "example_use": "The following command interacts with the TCC (Transparency, Consent, and Control) database to show the apps that have Full Disk access permission",
+      "intent": "recon"
+    },
+    {
+      "name": "ssh-keygen",
+      "path": "/usr/bin/ssh-keygen",
+      "short_description": "Load unsigned dynamic libraries into the ssh-keygen binary.",
+      "capability_tags": [
+        "execution"
+      ],
+      "mitre_techniques": [],
+      "example_use": "An attacker can execute a malicious .dylib from stdin by echoing a load command and piping to tclsh. This will bypass code signing requirements.",
+      "intent": "spawn_shell"
+    },
+    {
+      "name": "streamzip",
+      "path": "/usr/bin/streamzip",
+      "short_description": "File-less compression of data passed in through stdin.",
+      "capability_tags": [
+        "collection",
+        "exfiltration"
+      ],
+      "mitre_techniques": [],
+      "example_use": "The following command reads file data and compresses the data for exfiltration",
+      "intent": "read"
+    },
+    {
+      "name": "sw_vers",
+      "path": "/usr/bin/sw_vers",
+      "short_description": "Prints macOS version information.",
+      "capability_tags": [
+        "discovery"
+      ],
+      "mitre_techniques": [],
+      "example_use": "Fetch detailed macOS version information including the build version, product name, and product version.",
+      "intent": "recon"
+    },
+    {
+      "name": "swift",
+      "path": "/usr/bin/swift",
+      "short_description": "Arbitrarily execute swift code from the terminal.",
+      "capability_tags": [
+        "execution"
+      ],
+      "mitre_techniques": [],
+      "example_use": "Executes the Swift code that is in a .swift file",
+      "intent": "spawn_shell"
+    },
+    {
+      "name": "sysadminctl",
+      "path": "/usr/sbin/sysadminctl",
+      "short_description": "Create/delete local accounts, guest account, enable SMB/AFP Guest access.",
+      "capability_tags": [
+        "exfiltration",
+        "impact",
+        "persistence"
+      ],
+      "mitre_techniques": [],
+      "example_use": "sysadminctl can be used to enable the guest account",
+      "intent": "unknown"
+    },
+    {
+      "name": "sysctl",
+      "path": "/usr/sbin/sysctl",
+      "short_description": "Get macOS hardware model information.",
+      "capability_tags": [
+        "discovery"
+      ],
+      "mitre_techniques": [],
+      "example_use": "sysctl can be used to gather interesting macOS host data, including hardware information, memory size, logical cpu information, etc.",
+      "intent": "recon"
+    },
+    {
+      "name": "system_profiler",
+      "path": "/usr/sbin/system_profiler",
+      "short_description": "Reports system hardware and software configuration.",
+      "capability_tags": [
+        "discovery"
+      ],
+      "mitre_techniques": [],
+      "example_use": "List all available sub-systems to get information from.",
+      "intent": "recon"
+    },
+    {
+      "name": "systemsetup",
+      "path": "/usr/sbin/systemsetup",
+      "short_description": "Enable remote login, remote apple events for the machine",
+      "capability_tags": [],
+      "mitre_techniques": [],
+      "example_use": "systemsetup can be used to enable SSH for remote login",
+      "intent": "unknown"
+    },
+    {
+      "name": "tccutil",
+      "path": "/usr/bin/tccutil",
+      "short_description": "Command-line tool for managing the Transparency, Consent, and Control (TCC) permissions database",
+      "capability_tags": [],
+      "mitre_techniques": [],
+      "example_use": "Banshee Stealer resets the permissions that have already been allowed to applications on the system, which will cause the user to be prompted to give them again. This action may be intended to trick t",
+      "intent": "unknown"
+    },
+    {
+      "name": "tclsh",
+      "path": "/usr/bin/tclsh",
+      "short_description": "Run Tcl files or shell commands from standard input.",
+      "capability_tags": [
+        "execution"
+      ],
+      "mitre_techniques": [],
+      "example_use": "An attacker can execute a malicious .dylib from stdin by echoing a load command and piping to tclsh. This will bypass code signing requirements.",
+      "intent": "spawn_shell"
+    },
+    {
+      "name": "textutil",
+      "path": "/usr/bin/textutil",
+      "short_description": "Manipulate text files in various formats.",
+      "capability_tags": [
+        "collection"
+      ],
+      "mitre_techniques": [],
+      "example_use": "A one-liner can load the content of multiple RTF files in a directory, concatenate their contents, and write the results out as a new file. This provides two sub-use-cases; one is building a malicious",
+      "intent": "unknown"
+    },
+    {
+      "name": "tmutil",
+      "path": "/usr/bin/tmutil",
+      "short_description": "Manage Time Machine backups.",
+      "capability_tags": [
+        "collection",
+        "impact"
+      ],
+      "mitre_techniques": [],
+      "example_use": "The following command disables Time Machine. An attacker can use this to prevent backups from occurring.",
+      "intent": "disrupt"
+    },
+    {
+      "name": "xattr",
+      "path": "/usr/bin/xattr",
+      "short_description": "Display and manipulate extended attributes.",
+      "capability_tags": [
+        "execution"
+      ],
+      "mitre_techniques": [],
+      "example_use": "Use xattr to remove quarantine extended attribute from a file.",
+      "intent": "spawn_shell"
+    }
+  ]
+}

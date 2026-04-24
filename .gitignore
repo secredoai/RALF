@@ -1,0 +1,45 @@
+# Python build artifacts
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+*.egg
+build/
+dist/
+.eggs/
+pip-wheel-metadata/
+
+# Test / cache
+.pytest_cache/
+.cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.mypy_cache/
+.ruff_cache/
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Local installer logs
+/tmp/ralf-free-pip.log
+
+# Internal dev files — not for public release
+CLAUDE.md
+ralf/data/pro_extra_rules.yaml
+ralf/scripts/split_rules_free_pro.py
+*.db
+*.pkl
+*.sqlite
+.claude/

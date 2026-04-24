@@ -1,0 +1,3227 @@
+version: 2
+source: gtfobins_round_7
+generated_from: https://codeload.github.com/GTFOBins/GTFOBins.github.io/zip/refs/heads/master
+last_updated: '2026-04-23'
+note: 'Generated rules. Merge into ralf/data/learned_rules.yaml under the ''rules:''
+  list (dedup by ''id''). Each rule carries source: gtfobins_round_7.'
+rules:
+- id: lr-gtfo-r7-7z-file-read
+  name: GTFOBins 7z — file-read
+  match:
+    binary:
+    - 7z
+  score_floor: 3
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-aa-exec-shell
+  name: GTFOBins aa-exec — shell
+  match:
+    binary:
+    - aa-exec
+  score_floor: 4
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-acr-command
+  name: GTFOBins acr — command
+  match:
+    binary:
+    - acr
+  score_floor: 3
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-agetty-shell
+  name: GTFOBins agetty — shell
+  match:
+    binary:
+    - agetty
+  score_floor: 4
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-alpine-file-read
+  name: GTFOBins alpine — file-read
+  match:
+    binary:
+    - alpine
+  score_floor: 3
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-ansible-playbook-shell
+  name: GTFOBins ansible-playbook — shell
+  match:
+    binary:
+    - ansible-playbook
+  score_floor: 4
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-ansible-test-shell
+  name: GTFOBins ansible-test — shell
+  match:
+    binary:
+    - ansible-test
+  score_floor: 4
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-aoss-shell
+  name: GTFOBins aoss — shell
+  match:
+    binary:
+    - aoss
+  score_floor: 4
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-apache2-file-read
+  name: GTFOBins apache2 — file-read
+  match:
+    binary:
+    - apache2
+  score_floor: 3
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-apache2ctl-file-read
+  name: GTFOBins apache2ctl — file-read
+  match:
+    binary:
+    - apache2ctl
+  score_floor: 3
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-apt-get-shell
+  name: GTFOBins apt-get — shell
+  match:
+    binary:
+    - apt-get
+  score_floor: 4
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-ar-file-read
+  name: GTFOBins ar — file-read
+  match:
+    binary:
+    - ar
+  score_floor: 3
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-arch-nspawn-shell
+  name: GTFOBins arch-nspawn — shell
+  match:
+    binary:
+    - arch-nspawn
+  score_floor: 4
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-aria2c-command
+  name: GTFOBins aria2c — command
+  match:
+    binary:
+    - aria2c
+  score_floor: 3
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-aria2c-file-read
+  name: GTFOBins aria2c — file-read
+  match:
+    binary:
+    - aria2c
+  score_floor: 3
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-arj-file-read
+  name: GTFOBins arj — file-read
+  match:
+    binary:
+    - arj
+  score_floor: 3
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-arj-file-write
+  name: GTFOBins arj — file-write
+  match:
+    binary:
+    - arj
+  score_floor: 4
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-arp-file-read
+  name: GTFOBins arp — file-read
+  match:
+    binary:
+    - arp
+  score_floor: 3
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-as-file-read
+  name: GTFOBins as — file-read
+  match:
+    binary:
+    - as
+  score_floor: 3
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-ascii-xfr-file-read
+  name: GTFOBins ascii-xfr — file-read
+  match:
+    binary:
+    - ascii-xfr
+  score_floor: 3
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-ascii85-file-read
+  name: GTFOBins ascii85 — file-read
+  match:
+    binary:
+    - ascii85
+  score_floor: 3
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-ash-file-write
+  name: GTFOBins ash — file-write
+  match:
+    binary:
+    - ash
+  score_floor: 4
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-ash-shell
+  name: GTFOBins ash — shell
+  match:
+    binary:
+    - ash
+  score_floor: 4
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-aspell-file-read
+  name: GTFOBins aspell — file-read
+  match:
+    binary:
+    - aspell
+  score_floor: 3
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-asterisk-shell
+  name: GTFOBins asterisk — shell
+  match:
+    binary:
+    - asterisk
+  score_floor: 4
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-at-command
+  name: GTFOBins at — command
+  match:
+    binary:
+    - at
+  score_floor: 3
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-at-shell
+  name: GTFOBins at — shell
+  match:
+    binary:
+    - at
+  score_floor: 4
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-atobm-file-read
+  name: GTFOBins atobm — file-read
+  match:
+    binary:
+    - atobm
+  score_floor: 3
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-autoconf-shell
+  name: GTFOBins autoconf — shell
+  match:
+    binary:
+    - autoconf
+  score_floor: 4
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-autoheader-shell
+  name: GTFOBins autoheader — shell
+  match:
+    binary:
+    - autoheader
+  score_floor: 4
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-autoreconf-shell
+  name: GTFOBins autoreconf — shell
+  match:
+    binary:
+    - autoreconf
+  score_floor: 4
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-aws-file-read
+  name: GTFOBins aws — file-read
+  match:
+    binary:
+    - aws
+  score_floor: 3
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-base32-file-read
+  name: GTFOBins base32 — file-read
+  match:
+    binary:
+    - base32
+  score_floor: 3
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-base58-file-read
+  name: GTFOBins base58 — file-read
+  match:
+    binary:
+    - base58
+  score_floor: 3
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-base64-file-read
+  name: GTFOBins base64 — file-read
+  match:
+    binary:
+    - base64
+  score_floor: 3
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-basenc-file-read
+  name: GTFOBins basenc — file-read
+  match:
+    binary:
+    - basenc
+  score_floor: 3
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-basez-file-read
+  name: GTFOBins basez — file-read
+  match:
+    binary:
+    - basez
+  score_floor: 3
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-bbot-file-read
+  name: GTFOBins bbot — file-read
+  match:
+    binary:
+    - bbot
+  score_floor: 3
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-bc-file-read
+  name: GTFOBins bc — file-read
+  match:
+    binary:
+    - bc
+  score_floor: 3
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-bconsole-file-read
+  name: GTFOBins bconsole — file-read
+  match:
+    binary:
+    - bconsole
+  score_floor: 3
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-bconsole-shell
+  name: GTFOBins bconsole — shell
+  match:
+    binary:
+    - bconsole
+  score_floor: 4
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-borg-shell
+  name: GTFOBins borg — shell
+  match:
+    binary:
+    - borg
+  score_floor: 4
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-bpftrace-shell
+  name: GTFOBins bpftrace — shell
+  match:
+    binary:
+    - bpftrace
+  score_floor: 4
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-bridge-file-read
+  name: GTFOBins bridge — file-read
+  match:
+    binary:
+    - bridge
+  score_floor: 3
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-busctl-shell
+  name: GTFOBins busctl — shell
+  match:
+    binary:
+    - busctl
+  score_floor: 4
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-busybox-reverse-shell
+  name: GTFOBins busybox — reverse-shell
+  match:
+    binary:
+    - busybox
+  score_floor: 6
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-bzip2-file-read
+  name: GTFOBins bzip2 — file-read
+  match:
+    binary:
+    - bzip2
+  score_floor: 3
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-cabal-shell
+  name: GTFOBins cabal — shell
+  match:
+    binary:
+    - cabal
+  score_floor: 4
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-capsh-shell
+  name: GTFOBins capsh — shell
+  match:
+    binary:
+    - capsh
+  score_floor: 4
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-cdist-shell
+  name: GTFOBins cdist — shell
+  match:
+    binary:
+    - cdist
+  score_floor: 4
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-certbot-shell
+  name: GTFOBins certbot — shell
+  match:
+    binary:
+    - certbot
+  score_floor: 4
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-check_by_ssh-shell
+  name: GTFOBins check_by_ssh — shell
+  match:
+    binary:
+    - check_by_ssh
+  score_floor: 4
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-check_cups-file-read
+  name: GTFOBins check_cups — file-read
+  match:
+    binary:
+    - check_cups
+  score_floor: 3
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-check_log-file-read
+  name: GTFOBins check_log — file-read
+  match:
+    binary:
+    - check_log
+  score_floor: 3
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-check_log-file-write
+  name: GTFOBins check_log — file-write
+  match:
+    binary:
+    - check_log
+  score_floor: 4
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-check_memory-file-read
+  name: GTFOBins check_memory — file-read
+  match:
+    binary:
+    - check_memory
+  score_floor: 3
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-check_raid-file-read
+  name: GTFOBins check_raid — file-read
+  match:
+    binary:
+    - check_raid
+  score_floor: 3
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-check_ssl_cert-shell
+  name: GTFOBins check_ssl_cert — shell
+  match:
+    binary:
+    - check_ssl_cert
+  score_floor: 4
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-check_statusfile-file-read
+  name: GTFOBins check_statusfile — file-read
+  match:
+    binary:
+    - check_statusfile
+  score_floor: 3
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-choom-shell
+  name: GTFOBins choom — shell
+  match:
+    binary:
+    - choom
+  score_floor: 4
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-chroot-shell
+  name: GTFOBins chroot — shell
+  match:
+    binary:
+    - chroot
+  score_floor: 4
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-chrt-shell
+  name: GTFOBins chrt — shell
+  match:
+    binary:
+    - chrt
+  score_floor: 4
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-clamscan-file-read
+  name: GTFOBins clamscan — file-read
+  match:
+    binary:
+    - clamscan
+  score_floor: 3
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-clisp-shell
+  name: GTFOBins clisp — shell
+  match:
+    binary:
+    - clisp
+  score_floor: 4
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-cmp-file-read
+  name: GTFOBins cmp — file-read
+  match:
+    binary:
+    - cmp
+  score_floor: 3
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-cobc-shell
+  name: GTFOBins cobc — shell
+  match:
+    binary:
+    - cobc
+  score_floor: 4
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-code-reverse-shell
+  name: GTFOBins code — reverse-shell
+  match:
+    binary:
+    - code
+  score_floor: 6
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-codex-shell
+  name: GTFOBins codex — shell
+  match:
+    binary:
+    - codex
+  score_floor: 4
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-column-file-read
+  name: GTFOBins column — file-read
+  match:
+    binary:
+    - column
+  score_floor: 3
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-comm-file-read
+  name: GTFOBins comm — file-read
+  match:
+    binary:
+    - comm
+  score_floor: 3
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-cp-file-read
+  name: GTFOBins cp — file-read
+  match:
+    binary:
+    - cp
+  score_floor: 3
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-cp-file-write
+  name: GTFOBins cp — file-write
+  match:
+    binary:
+    - cp
+  score_floor: 4
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-cpio-file-read
+  name: GTFOBins cpio — file-read
+  match:
+    binary:
+    - cpio
+  score_floor: 3
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-cpio-file-write
+  name: GTFOBins cpio — file-write
+  match:
+    binary:
+    - cpio
+  score_floor: 4
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-cpio-shell
+  name: GTFOBins cpio — shell
+  match:
+    binary:
+    - cpio
+  score_floor: 4
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-cpulimit-shell
+  name: GTFOBins cpulimit — shell
+  match:
+    binary:
+    - cpulimit
+  score_floor: 4
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-crash-command
+  name: GTFOBins crash — command
+  match:
+    binary:
+    - crash
+  score_floor: 3
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-crontab-command
+  name: GTFOBins crontab — command
+  match:
+    binary:
+    - crontab
+  score_floor: 3
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-csplit-file-read
+  name: GTFOBins csplit — file-read
+  match:
+    binary:
+    - csplit
+  score_floor: 3
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-csplit-file-write
+  name: GTFOBins csplit — file-write
+  match:
+    binary:
+    - csplit
+  score_floor: 4
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-csvtool-file-read
+  name: GTFOBins csvtool — file-read
+  match:
+    binary:
+    - csvtool
+  score_floor: 3
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-csvtool-file-write
+  name: GTFOBins csvtool — file-write
+  match:
+    binary:
+    - csvtool
+  score_floor: 4
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-csvtool-shell
+  name: GTFOBins csvtool — shell
+  match:
+    binary:
+    - csvtool
+  score_floor: 4
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-ctr-shell
+  name: GTFOBins ctr — shell
+  match:
+    binary:
+    - ctr
+  score_floor: 4
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-cupsfilter-file-read
+  name: GTFOBins cupsfilter — file-read
+  match:
+    binary:
+    - cupsfilter
+  score_floor: 3
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-curl-file-read
+  name: GTFOBins curl — file-read
+  match:
+    binary:
+    - curl
+  score_floor: 3
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-curl-file-write
+  name: GTFOBins curl — file-write
+  match:
+    binary:
+    - curl
+  score_floor: 4
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-curl-library-load
+  name: GTFOBins curl — library-load
+  match:
+    binary:
+    - curl
+  score_floor: 5
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-date-file-read
+  name: GTFOBins date — file-read
+  match:
+    binary:
+    - date
+  score_floor: 3
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-dc-shell
+  name: GTFOBins dc — shell
+  match:
+    binary:
+    - dc
+  score_floor: 4
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-dd-file-read
+  name: GTFOBins dd — file-read
+  match:
+    binary:
+    - dd
+  score_floor: 3
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-dd-file-write
+  name: GTFOBins dd — file-write
+  match:
+    binary:
+    - dd
+  score_floor: 4
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-debugfs-shell
+  name: GTFOBins debugfs — shell
+  match:
+    binary:
+    - debugfs
+  score_floor: 4
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-dhclient-shell
+  name: GTFOBins dhclient — shell
+  match:
+    binary:
+    - dhclient
+  score_floor: 4
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-dialog-file-read
+  name: GTFOBins dialog — file-read
+  match:
+    binary:
+    - dialog
+  score_floor: 3
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-diff-file-read
+  name: GTFOBins diff — file-read
+  match:
+    binary:
+    - diff
+  score_floor: 3
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-dig-file-read
+  name: GTFOBins dig — file-read
+  match:
+    binary:
+    - dig
+  score_floor: 3
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-distcc-shell
+  name: GTFOBins distcc — shell
+  match:
+    binary:
+    - distcc
+  score_floor: 4
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-dmesg-file-read
+  name: GTFOBins dmesg — file-read
+  match:
+    binary:
+    - dmesg
+  score_floor: 3
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-dmidecode-file-write
+  name: GTFOBins dmidecode — file-write
+  match:
+    binary:
+    - dmidecode
+  score_floor: 4
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-dmsetup-shell
+  name: GTFOBins dmsetup — shell
+  match:
+    binary:
+    - dmsetup
+  score_floor: 4
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-dnf-command
+  name: GTFOBins dnf — command
+  match:
+    binary:
+    - dnf
+  score_floor: 3
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-dnsmasq-command
+  name: GTFOBins dnsmasq — command
+  match:
+    binary:
+    - dnsmasq
+  score_floor: 3
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-doas-shell
+  name: GTFOBins doas — shell
+  match:
+    binary:
+    - doas
+  score_floor: 4
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-dos2unix-file-read
+  name: GTFOBins dos2unix — file-read
+  match:
+    binary:
+    - dos2unix
+  score_floor: 3
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-dos2unix-file-write
+  name: GTFOBins dos2unix — file-write
+  match:
+    binary:
+    - dos2unix
+  score_floor: 4
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-dosbox-file-read
+  name: GTFOBins dosbox — file-read
+  match:
+    binary:
+    - dosbox
+  score_floor: 3
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-dosbox-file-write
+  name: GTFOBins dosbox — file-write
+  match:
+    binary:
+    - dosbox
+  score_floor: 4
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-dpkg-shell
+  name: GTFOBins dpkg — shell
+  match:
+    binary:
+    - dpkg
+  score_floor: 4
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-dvips-shell
+  name: GTFOBins dvips — shell
+  match:
+    binary:
+    - dvips
+  score_floor: 4
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-easyrsa-shell
+  name: GTFOBins easyrsa — shell
+  match:
+    binary:
+    - easyrsa
+  score_floor: 4
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-efax-file-read
+  name: GTFOBins efax — file-read
+  match:
+    binary:
+    - efax
+  score_floor: 3
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-elvish-file-read
+  name: GTFOBins elvish — file-read
+  match:
+    binary:
+    - elvish
+  score_floor: 3
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-elvish-file-write
+  name: GTFOBins elvish — file-write
+  match:
+    binary:
+    - elvish
+  score_floor: 4
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-elvish-shell
+  name: GTFOBins elvish — shell
+  match:
+    binary:
+    - elvish
+  score_floor: 4
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-enscript-shell
+  name: GTFOBins enscript — shell
+  match:
+    binary:
+    - enscript
+  score_floor: 4
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-eqn-file-read
+  name: GTFOBins eqn — file-read
+  match:
+    binary:
+    - eqn
+  score_floor: 3
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-espeak-file-read
+  name: GTFOBins espeak — file-read
+  match:
+    binary:
+    - espeak
+  score_floor: 3
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-ex-shell
+  name: GTFOBins ex — shell
+  match:
+    binary:
+    - ex
+  score_floor: 4
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-exiftool-file-read
+  name: GTFOBins exiftool — file-read
+  match:
+    binary:
+    - exiftool
+  score_floor: 3
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-exiftool-file-write
+  name: GTFOBins exiftool — file-write
+  match:
+    binary:
+    - exiftool
+  score_floor: 4
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-expand-file-read
+  name: GTFOBins expand — file-read
+  match:
+    binary:
+    - expand
+  score_floor: 3
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-expect-file-read
+  name: GTFOBins expect — file-read
+  match:
+    binary:
+    - expect
+  score_floor: 3
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-expect-shell
+  name: GTFOBins expect — shell
+  match:
+    binary:
+    - expect
+  score_floor: 4
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-fail2ban-client-command
+  name: GTFOBins fail2ban-client — command
+  match:
+    binary:
+    - fail2ban-client
+  score_floor: 3
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-fastfetch-command
+  name: GTFOBins fastfetch — command
+  match:
+    binary:
+    - fastfetch
+  score_floor: 3
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-fastfetch-file-read
+  name: GTFOBins fastfetch — file-read
+  match:
+    binary:
+    - fastfetch
+  score_floor: 3
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-fastfetch-shell
+  name: GTFOBins fastfetch — shell
+  match:
+    binary:
+    - fastfetch
+  score_floor: 4
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-ffmpeg-library-load
+  name: GTFOBins ffmpeg — library-load
+  match:
+    binary:
+    - ffmpeg
+  score_floor: 5
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-file-file-read
+  name: GTFOBins file — file-read
+  match:
+    binary:
+    - file
+  score_floor: 3
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-firejail-shell
+  name: GTFOBins firejail — shell
+  match:
+    binary:
+    - firejail
+  score_floor: 4
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-flock-shell
+  name: GTFOBins flock — shell
+  match:
+    binary:
+    - flock
+  score_floor: 4
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-fmt-file-read
+  name: GTFOBins fmt — file-read
+  match:
+    binary:
+    - fmt
+  score_floor: 3
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-fold-file-read
+  name: GTFOBins fold — file-read
+  match:
+    binary:
+    - fold
+  score_floor: 3
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-forge-shell
+  name: GTFOBins forge — shell
+  match:
+    binary:
+    - forge
+  score_floor: 4
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-fping-file-read
+  name: GTFOBins fping — file-read
+  match:
+    binary:
+    - fping
+  score_floor: 3
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-ftp-shell
+  name: GTFOBins ftp — shell
+  match:
+    binary:
+    - ftp
+  score_floor: 4
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-fzf-command
+  name: GTFOBins fzf — command
+  match:
+    binary:
+    - fzf
+  score_floor: 3
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-fzf-shell
+  name: GTFOBins fzf — shell
+  match:
+    binary:
+    - fzf
+  score_floor: 4
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-gcc-file-read
+  name: GTFOBins gcc — file-read
+  match:
+    binary:
+    - gcc
+  score_floor: 3
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-gcc-file-write
+  name: GTFOBins gcc — file-write
+  match:
+    binary:
+    - gcc
+  score_floor: 4
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-gcc-shell
+  name: GTFOBins gcc — shell
+  match:
+    binary:
+    - gcc
+  score_floor: 4
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-gcore-file-read
+  name: GTFOBins gcore — file-read
+  match:
+    binary:
+    - gcore
+  score_floor: 3
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-gdb-file-write
+  name: GTFOBins gdb — file-write
+  match:
+    binary:
+    - gdb
+  score_floor: 4
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-gdb-shell
+  name: GTFOBins gdb — shell
+  match:
+    binary:
+    - gdb
+  score_floor: 4
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-genie-shell
+  name: GTFOBins genie — shell
+  match:
+    binary:
+    - genie
+  score_floor: 4
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-genisoimage-file-read
+  name: GTFOBins genisoimage — file-read
+  match:
+    binary:
+    - genisoimage
+  score_floor: 3
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-ghc-shell
+  name: GTFOBins ghc — shell
+  match:
+    binary:
+    - ghc
+  score_floor: 4
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-ghci-shell
+  name: GTFOBins ghci — shell
+  match:
+    binary:
+    - ghci
+  score_floor: 4
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-ginsh-shell
+  name: GTFOBins ginsh — shell
+  match:
+    binary:
+    - ginsh
+  score_floor: 4
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-gnuplot-shell
+  name: GTFOBins gnuplot — shell
+  match:
+    binary:
+    - gnuplot
+  score_floor: 4
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-grc-shell
+  name: GTFOBins grc — shell
+  match:
+    binary:
+    - grc
+  score_floor: 4
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-gtester-file-write
+  name: GTFOBins gtester — file-write
+  match:
+    binary:
+    - gtester
+  score_floor: 4
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-gtester-shell
+  name: GTFOBins gtester — shell
+  match:
+    binary:
+    - gtester
+  score_floor: 4
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-guile-shell
+  name: GTFOBins guile — shell
+  match:
+    binary:
+    - guile
+  score_floor: 4
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-gzip-file-read
+  name: GTFOBins gzip — file-read
+  match:
+    binary:
+    - gzip
+  score_floor: 3
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-hashcat-file-write
+  name: GTFOBins hashcat — file-write
+  match:
+    binary:
+    - hashcat
+  score_floor: 4
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-hexdump-file-read
+  name: GTFOBins hexdump — file-read
+  match:
+    binary:
+    - hexdump
+  score_floor: 3
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-hg-shell
+  name: GTFOBins hg — shell
+  match:
+    binary:
+    - hg
+  score_floor: 4
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-highlight-file-read
+  name: GTFOBins highlight — file-read
+  match:
+    binary:
+    - highlight
+  score_floor: 3
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-hping3-shell
+  name: GTFOBins hping3 — shell
+  match:
+    binary:
+    - hping3
+  score_floor: 4
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-iconv-file-read
+  name: GTFOBins iconv — file-read
+  match:
+    binary:
+    - iconv
+  score_floor: 3
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-iconv-file-write
+  name: GTFOBins iconv — file-write
+  match:
+    binary:
+    - iconv
+  score_floor: 4
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-iftop-shell
+  name: GTFOBins iftop — shell
+  match:
+    binary:
+    - iftop
+  score_floor: 4
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-ionice-shell
+  name: GTFOBins ionice — shell
+  match:
+    binary:
+    - ionice
+  score_floor: 4
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-ip-file-read
+  name: GTFOBins ip — file-read
+  match:
+    binary:
+    - ip
+  score_floor: 3
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-ip-shell
+  name: GTFOBins ip — shell
+  match:
+    binary:
+    - ip
+  score_floor: 4
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-iptables-save-file-write
+  name: GTFOBins iptables-save — file-write
+  match:
+    binary:
+    - iptables-save
+  score_floor: 4
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-ispell-shell
+  name: GTFOBins ispell — shell
+  match:
+    binary:
+    - ispell
+  score_floor: 4
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-java-shell
+  name: GTFOBins java — shell
+  match:
+    binary:
+    - java
+  score_floor: 4
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-jjs-file-read
+  name: GTFOBins jjs — file-read
+  match:
+    binary:
+    - jjs
+  score_floor: 3
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-jjs-file-write
+  name: GTFOBins jjs — file-write
+  match:
+    binary:
+    - jjs
+  score_floor: 4
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-jjs-reverse-shell
+  name: GTFOBins jjs — reverse-shell
+  match:
+    binary:
+    - jjs
+  score_floor: 6
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-jjs-shell
+  name: GTFOBins jjs — shell
+  match:
+    binary:
+    - jjs
+  score_floor: 4
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-joe-shell
+  name: GTFOBins joe — shell
+  match:
+    binary:
+    - joe
+  score_floor: 4
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-join-file-read
+  name: GTFOBins join — file-read
+  match:
+    binary:
+    - join
+  score_floor: 3
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-jq-file-read
+  name: GTFOBins jq — file-read
+  match:
+    binary:
+    - jq
+  score_floor: 3
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-jrunscript-file-read
+  name: GTFOBins jrunscript — file-read
+  match:
+    binary:
+    - jrunscript
+  score_floor: 3
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-jrunscript-file-write
+  name: GTFOBins jrunscript — file-write
+  match:
+    binary:
+    - jrunscript
+  score_floor: 4
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-jrunscript-reverse-shell
+  name: GTFOBins jrunscript — reverse-shell
+  match:
+    binary:
+    - jrunscript
+  score_floor: 6
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-jrunscript-shell
+  name: GTFOBins jrunscript — shell
+  match:
+    binary:
+    - jrunscript
+  score_floor: 4
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-jshell-file-read
+  name: GTFOBins jshell — file-read
+  match:
+    binary:
+    - jshell
+  score_floor: 3
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-jshell-file-write
+  name: GTFOBins jshell — file-write
+  match:
+    binary:
+    - jshell
+  score_floor: 4
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-jshell-shell
+  name: GTFOBins jshell — shell
+  match:
+    binary:
+    - jshell
+  score_floor: 4
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-jtag-shell
+  name: GTFOBins jtag — shell
+  match:
+    binary:
+    - jtag
+  score_floor: 4
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-julia-file-read
+  name: GTFOBins julia — file-read
+  match:
+    binary:
+    - julia
+  score_floor: 3
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-julia-file-write
+  name: GTFOBins julia — file-write
+  match:
+    binary:
+    - julia
+  score_floor: 4
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-julia-reverse-shell
+  name: GTFOBins julia — reverse-shell
+  match:
+    binary:
+    - julia
+  score_floor: 6
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-julia-shell
+  name: GTFOBins julia — shell
+  match:
+    binary:
+    - julia
+  score_floor: 4
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-ksshell-file-read
+  name: GTFOBins ksshell — file-read
+  match:
+    binary:
+    - ksshell
+  score_floor: 3
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-ksu-shell
+  name: GTFOBins ksu — shell
+  match:
+    binary:
+    - ksu
+  score_floor: 4
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-last-file-read
+  name: GTFOBins last — file-read
+  match:
+    binary:
+    - last
+  score_floor: 3
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-latex-file-read
+  name: GTFOBins latex — file-read
+  match:
+    binary:
+    - latex
+  score_floor: 3
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-latex-file-write
+  name: GTFOBins latex — file-write
+  match:
+    binary:
+    - latex
+  score_floor: 4
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-latex-shell
+  name: GTFOBins latex — shell
+  match:
+    binary:
+    - latex
+  score_floor: 4
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-latexmk-file-read
+  name: GTFOBins latexmk — file-read
+  match:
+    binary:
+    - latexmk
+  score_floor: 3
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-latexmk-shell
+  name: GTFOBins latexmk — shell
+  match:
+    binary:
+    - latexmk
+  score_floor: 4
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-ld-shell
+  name: GTFOBins ld — shell
+  match:
+    binary:
+    - ld
+  score_floor: 4
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-ldconfig-library-load
+  name: GTFOBins ldconfig — library-load
+  match:
+    binary:
+    - ldconfig
+  score_floor: 5
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-lftp-shell
+  name: GTFOBins lftp — shell
+  match:
+    binary:
+    - lftp
+  score_floor: 4
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-links-file-read
+  name: GTFOBins links — file-read
+  match:
+    binary:
+    - links
+  score_floor: 3
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-loginctl-shell
+  name: GTFOBins loginctl — shell
+  match:
+    binary:
+    - loginctl
+  score_floor: 4
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-logrotate-file-read
+  name: GTFOBins logrotate — file-read
+  match:
+    binary:
+    - logrotate
+  score_floor: 3
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-logrotate-file-write
+  name: GTFOBins logrotate — file-write
+  match:
+    binary:
+    - logrotate
+  score_floor: 4
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-logrotate-shell
+  name: GTFOBins logrotate — shell
+  match:
+    binary:
+    - logrotate
+  score_floor: 4
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-logsave-shell
+  name: GTFOBins logsave — shell
+  match:
+    binary:
+    - logsave
+  score_floor: 4
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-look-file-read
+  name: GTFOBins look — file-read
+  match:
+    binary:
+    - look
+  score_floor: 3
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-ltrace-file-read
+  name: GTFOBins ltrace — file-read
+  match:
+    binary:
+    - ltrace
+  score_floor: 3
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-ltrace-file-write
+  name: GTFOBins ltrace — file-write
+  match:
+    binary:
+    - ltrace
+  score_floor: 4
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-ltrace-shell
+  name: GTFOBins ltrace — shell
+  match:
+    binary:
+    - ltrace
+  score_floor: 4
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-lwp-download-file-read
+  name: GTFOBins lwp-download — file-read
+  match:
+    binary:
+    - lwp-download
+  score_floor: 3
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-lwp-download-file-write
+  name: GTFOBins lwp-download — file-write
+  match:
+    binary:
+    - lwp-download
+  score_floor: 4
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-lwp-request-file-read
+  name: GTFOBins lwp-request — file-read
+  match:
+    binary:
+    - lwp-request
+  score_floor: 3
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-lxd-shell
+  name: GTFOBins lxd — shell
+  match:
+    binary:
+    - lxd
+  score_floor: 4
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-m4-command
+  name: GTFOBins m4 — command
+  match:
+    binary:
+    - m4
+  score_floor: 3
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-m4-file-read
+  name: GTFOBins m4 — file-read
+  match:
+    binary:
+    - m4
+  score_floor: 3
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-m4-shell
+  name: GTFOBins m4 — shell
+  match:
+    binary:
+    - m4
+  score_floor: 4
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-mail-shell
+  name: GTFOBins mail — shell
+  match:
+    binary:
+    - mail
+  score_floor: 4
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-man-file-read
+  name: GTFOBins man — file-read
+  match:
+    binary:
+    - man
+  score_floor: 3
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-man-shell
+  name: GTFOBins man — shell
+  match:
+    binary:
+    - man
+  score_floor: 4
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-mawk-file-read
+  name: GTFOBins mawk — file-read
+  match:
+    binary:
+    - mawk
+  score_floor: 3
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-mawk-file-write
+  name: GTFOBins mawk — file-write
+  match:
+    binary:
+    - mawk
+  score_floor: 4
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-mawk-shell
+  name: GTFOBins mawk — shell
+  match:
+    binary:
+    - mawk
+  score_floor: 4
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-minicom-shell
+  name: GTFOBins minicom — shell
+  match:
+    binary:
+    - minicom
+  score_floor: 4
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-mosh-server-shell
+  name: GTFOBins mosh-server — shell
+  match:
+    binary:
+    - mosh-server
+  score_floor: 4
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-mosquitto-file-read
+  name: GTFOBins mosquitto — file-read
+  match:
+    binary:
+    - mosquitto
+  score_floor: 3
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-msgattrib-file-read
+  name: GTFOBins msgattrib — file-read
+  match:
+    binary:
+    - msgattrib
+  score_floor: 3
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-msgcat-file-read
+  name: GTFOBins msgcat — file-read
+  match:
+    binary:
+    - msgcat
+  score_floor: 3
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-msgconv-file-read
+  name: GTFOBins msgconv — file-read
+  match:
+    binary:
+    - msgconv
+  score_floor: 3
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-msgfilter-file-read
+  name: GTFOBins msgfilter — file-read
+  match:
+    binary:
+    - msgfilter
+  score_floor: 3
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-msgfilter-shell
+  name: GTFOBins msgfilter — shell
+  match:
+    binary:
+    - msgfilter
+  score_floor: 4
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-msgmerge-file-read
+  name: GTFOBins msgmerge — file-read
+  match:
+    binary:
+    - msgmerge
+  score_floor: 3
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-msguniq-file-read
+  name: GTFOBins msguniq — file-read
+  match:
+    binary:
+    - msguniq
+  score_floor: 3
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-mtr-file-read
+  name: GTFOBins mtr — file-read
+  match:
+    binary:
+    - mtr
+  score_floor: 3
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-multitime-shell
+  name: GTFOBins multitime — shell
+  match:
+    binary:
+    - multitime
+  score_floor: 4
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-mutt-file-read
+  name: GTFOBins mutt — file-read
+  match:
+    binary:
+    - mutt
+  score_floor: 3
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-mv-file-write
+  name: GTFOBins mv — file-write
+  match:
+    binary:
+    - mv
+  score_floor: 4
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-mypy-file-read
+  name: GTFOBins mypy — file-read
+  match:
+    binary:
+    - mypy
+  score_floor: 3
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-mypy-file-write
+  name: GTFOBins mypy — file-write
+  match:
+    binary:
+    - mypy
+  score_floor: 4
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-mysql-library-load
+  name: GTFOBins mysql — library-load
+  match:
+    binary:
+    - mysql
+  score_floor: 5
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-mysql-shell
+  name: GTFOBins mysql — shell
+  match:
+    binary:
+    - mysql
+  score_floor: 4
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-nasm-file-read
+  name: GTFOBins nasm — file-read
+  match:
+    binary:
+    - nasm
+  score_floor: 3
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-nc-bind-shell
+  name: GTFOBins nc — bind-shell
+  match:
+    binary:
+    - nc
+  score_floor: 5
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-nc-reverse-shell
+  name: GTFOBins nc — reverse-shell
+  match:
+    binary:
+    - nc
+  score_floor: 6
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-ncdu-shell
+  name: GTFOBins ncdu — shell
+  match:
+    binary:
+    - ncdu
+  score_floor: 4
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-ncftp-shell
+  name: GTFOBins ncftp — shell
+  match:
+    binary:
+    - ncftp
+  score_floor: 4
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-neofetch-file-read
+  name: GTFOBins neofetch — file-read
+  match:
+    binary:
+    - neofetch
+  score_floor: 3
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-neofetch-shell
+  name: GTFOBins neofetch — shell
+  match:
+    binary:
+    - neofetch
+  score_floor: 4
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-nft-file-read
+  name: GTFOBins nft — file-read
+  match:
+    binary:
+    - nft
+  score_floor: 3
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-nginx-library-load
+  name: GTFOBins nginx — library-load
+  match:
+    binary:
+    - nginx
+  score_floor: 5
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-nice-shell
+  name: GTFOBins nice — shell
+  match:
+    binary:
+    - nice
+  score_floor: 4
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-nl-file-read
+  name: GTFOBins nl — file-read
+  match:
+    binary:
+    - nl
+  score_floor: 3
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-nm-file-read
+  name: GTFOBins nm — file-read
+  match:
+    binary:
+    - nm
+  score_floor: 3
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-nmap-file-read
+  name: GTFOBins nmap — file-read
+  match:
+    binary:
+    - nmap
+  score_floor: 3
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-nmap-file-write
+  name: GTFOBins nmap — file-write
+  match:
+    binary:
+    - nmap
+  score_floor: 4
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-nmap-shell
+  name: GTFOBins nmap — shell
+  match:
+    binary:
+    - nmap
+  score_floor: 4
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-nohup-command
+  name: GTFOBins nohup — command
+  match:
+    binary:
+    - nohup
+  score_floor: 3
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-nohup-shell
+  name: GTFOBins nohup — shell
+  match:
+    binary:
+    - nohup
+  score_floor: 4
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-nroff-file-read
+  name: GTFOBins nroff — file-read
+  match:
+    binary:
+    - nroff
+  score_floor: 3
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-nroff-shell
+  name: GTFOBins nroff — shell
+  match:
+    binary:
+    - nroff
+  score_floor: 4
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-nsenter-shell
+  name: GTFOBins nsenter — shell
+  match:
+    binary:
+    - nsenter
+  score_floor: 4
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-ntpdate-file-read
+  name: GTFOBins ntpdate — file-read
+  match:
+    binary:
+    - ntpdate
+  score_floor: 3
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-octave-file-read
+  name: GTFOBins octave — file-read
+  match:
+    binary:
+    - octave
+  score_floor: 3
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-octave-file-write
+  name: GTFOBins octave — file-write
+  match:
+    binary:
+    - octave
+  score_floor: 4
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-octave-shell
+  name: GTFOBins octave — shell
+  match:
+    binary:
+    - octave
+  score_floor: 4
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-od-file-read
+  name: GTFOBins od — file-read
+  match:
+    binary:
+    - od
+  score_floor: 3
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-opencode-command
+  name: GTFOBins opencode — command
+  match:
+    binary:
+    - opencode
+  score_floor: 3
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-openssl-file-read
+  name: GTFOBins openssl — file-read
+  match:
+    binary:
+    - openssl
+  score_floor: 3
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-openssl-file-write
+  name: GTFOBins openssl — file-write
+  match:
+    binary:
+    - openssl
+  score_floor: 4
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-openssl-library-load
+  name: GTFOBins openssl — library-load
+  match:
+    binary:
+    - openssl
+  score_floor: 5
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-openssl-reverse-shell
+  name: GTFOBins openssl — reverse-shell
+  match:
+    binary:
+    - openssl
+  score_floor: 6
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-openvpn-file-read
+  name: GTFOBins openvpn — file-read
+  match:
+    binary:
+    - openvpn
+  score_floor: 3
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-openvpn-shell
+  name: GTFOBins openvpn — shell
+  match:
+    binary:
+    - openvpn
+  score_floor: 4
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-openvt-command
+  name: GTFOBins openvt — command
+  match:
+    binary:
+    - openvt
+  score_floor: 3
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-opkg-shell
+  name: GTFOBins opkg — shell
+  match:
+    binary:
+    - opkg
+  score_floor: 4
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-pandoc-file-read
+  name: GTFOBins pandoc — file-read
+  match:
+    binary:
+    - pandoc
+  score_floor: 3
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-pandoc-file-write
+  name: GTFOBins pandoc — file-write
+  match:
+    binary:
+    - pandoc
+  score_floor: 4
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-paste-file-read
+  name: GTFOBins paste — file-read
+  match:
+    binary:
+    - paste
+  score_floor: 3
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-pax-file-read
+  name: GTFOBins pax — file-read
+  match:
+    binary:
+    - pax
+  score_floor: 3
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-pdflatex-file-read
+  name: GTFOBins pdflatex — file-read
+  match:
+    binary:
+    - pdflatex
+  score_floor: 3
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-pdflatex-file-write
+  name: GTFOBins pdflatex — file-write
+  match:
+    binary:
+    - pdflatex
+  score_floor: 4
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-pdflatex-shell
+  name: GTFOBins pdflatex — shell
+  match:
+    binary:
+    - pdflatex
+  score_floor: 4
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-pdftex-shell
+  name: GTFOBins pdftex — shell
+  match:
+    binary:
+    - pdftex
+  score_floor: 4
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-perf-shell
+  name: GTFOBins perf — shell
+  match:
+    binary:
+    - perf
+  score_floor: 4
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-perlbug-shell
+  name: GTFOBins perlbug — shell
+  match:
+    binary:
+    - perlbug
+  score_floor: 4
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-pexec-shell
+  name: GTFOBins pexec — shell
+  match:
+    binary:
+    - pexec
+  score_floor: 4
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-pg-file-read
+  name: GTFOBins pg — file-read
+  match:
+    binary:
+    - pg
+  score_floor: 3
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-pg-shell
+  name: GTFOBins pg — shell
+  match:
+    binary:
+    - pg
+  score_floor: 4
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-pic-file-read
+  name: GTFOBins pic — file-read
+  match:
+    binary:
+    - pic
+  score_floor: 3
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-pic-shell
+  name: GTFOBins pic — shell
+  match:
+    binary:
+    - pic
+  score_floor: 4
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-pidstat-shell
+  name: GTFOBins pidstat — shell
+  match:
+    binary:
+    - pidstat
+  score_floor: 4
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-pkexec-shell
+  name: GTFOBins pkexec — shell
+  match:
+    binary:
+    - pkexec
+  score_floor: 4
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-pkg-command
+  name: GTFOBins pkg — command
+  match:
+    binary:
+    - pkg
+  score_floor: 3
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-plymouth-shell
+  name: GTFOBins plymouth — shell
+  match:
+    binary:
+    - plymouth
+  score_floor: 4
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-posh-shell
+  name: GTFOBins posh — shell
+  match:
+    binary:
+    - posh
+  score_floor: 4
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-pr-file-read
+  name: GTFOBins pr — file-read
+  match:
+    binary:
+    - pr
+  score_floor: 3
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-procmail-command
+  name: GTFOBins procmail — command
+  match:
+    binary:
+    - procmail
+  score_floor: 3
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-psftp-shell
+  name: GTFOBins psftp — shell
+  match:
+    binary:
+    - psftp
+  score_floor: 4
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-psql-shell
+  name: GTFOBins psql — shell
+  match:
+    binary:
+    - psql
+  score_floor: 4
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-ptx-file-read
+  name: GTFOBins ptx — file-read
+  match:
+    binary:
+    - ptx
+  score_floor: 3
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-puppet-file-read
+  name: GTFOBins puppet — file-read
+  match:
+    binary:
+    - puppet
+  score_floor: 3
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-puppet-file-write
+  name: GTFOBins puppet — file-write
+  match:
+    binary:
+    - puppet
+  score_floor: 4
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-puppet-shell
+  name: GTFOBins puppet — shell
+  match:
+    binary:
+    - puppet
+  score_floor: 4
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-pwsh-file-write
+  name: GTFOBins pwsh — file-write
+  match:
+    binary:
+    - pwsh
+  score_floor: 4
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-pwsh-shell
+  name: GTFOBins pwsh — shell
+  match:
+    binary:
+    - pwsh
+  score_floor: 4
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-pygmentize-file-read
+  name: GTFOBins pygmentize — file-read
+  match:
+    binary:
+    - pygmentize
+  score_floor: 3
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-pyright-file-read
+  name: GTFOBins pyright — file-read
+  match:
+    binary:
+    - pyright
+  score_floor: 3
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-qpdf-file-read
+  name: GTFOBins qpdf — file-read
+  match:
+    binary:
+    - qpdf
+  score_floor: 3
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-R-shell
+  name: GTFOBins R — shell
+  match:
+    binary:
+    - R
+  score_floor: 4
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-ranger-shell
+  name: GTFOBins ranger — shell
+  match:
+    binary:
+    - ranger
+  score_floor: 4
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-rc-shell
+  name: GTFOBins rc — shell
+  match:
+    binary:
+    - rc
+  score_floor: 4
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-readelf-file-read
+  name: GTFOBins readelf — file-read
+  match:
+    binary:
+    - readelf
+  score_floor: 3
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-redcarpet-file-read
+  name: GTFOBins redcarpet — file-read
+  match:
+    binary:
+    - redcarpet
+  score_floor: 3
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-redis-file-write
+  name: GTFOBins redis — file-write
+  match:
+    binary:
+    - redis
+  score_floor: 4
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-restic-command
+  name: GTFOBins restic — command
+  match:
+    binary:
+    - restic
+  score_floor: 3
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-restic-shell
+  name: GTFOBins restic — shell
+  match:
+    binary:
+    - restic
+  score_floor: 4
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-rev-file-read
+  name: GTFOBins rev — file-read
+  match:
+    binary:
+    - rev
+  score_floor: 3
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-rlwrap-file-write
+  name: GTFOBins rlwrap — file-write
+  match:
+    binary:
+    - rlwrap
+  score_floor: 4
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-rlwrap-shell
+  name: GTFOBins rlwrap — shell
+  match:
+    binary:
+    - rlwrap
+  score_floor: 4
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-rpm-command
+  name: GTFOBins rpm — command
+  match:
+    binary:
+    - rpm
+  score_floor: 3
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-rpm-shell
+  name: GTFOBins rpm — shell
+  match:
+    binary:
+    - rpm
+  score_floor: 4
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-rpmdb-shell
+  name: GTFOBins rpmdb — shell
+  match:
+    binary:
+    - rpmdb
+  score_floor: 4
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-rpmquery-shell
+  name: GTFOBins rpmquery — shell
+  match:
+    binary:
+    - rpmquery
+  score_floor: 4
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-rpmverify-shell
+  name: GTFOBins rpmverify — shell
+  match:
+    binary:
+    - rpmverify
+  score_floor: 4
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-rsync-shell
+  name: GTFOBins rsync — shell
+  match:
+    binary:
+    - rsync
+  score_floor: 4
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-rsyslogd-command
+  name: GTFOBins rsyslogd — command
+  match:
+    binary:
+    - rsyslogd
+  score_floor: 3
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-rtorrent-shell
+  name: GTFOBins rtorrent — shell
+  match:
+    binary:
+    - rtorrent
+  score_floor: 4
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-run-parts-shell
+  name: GTFOBins run-parts — shell
+  match:
+    binary:
+    - run-parts
+  score_floor: 4
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-runscript-shell
+  name: GTFOBins runscript — shell
+  match:
+    binary:
+    - runscript
+  score_floor: 4
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-rustdoc-file-read
+  name: GTFOBins rustdoc — file-read
+  match:
+    binary:
+    - rustdoc
+  score_floor: 3
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-rustdoc-file-write
+  name: GTFOBins rustdoc — file-write
+  match:
+    binary:
+    - rustdoc
+  score_floor: 4
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-rustfmt-file-read
+  name: GTFOBins rustfmt — file-read
+  match:
+    binary:
+    - rustfmt
+  score_floor: 3
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-sash-shell
+  name: GTFOBins sash — shell
+  match:
+    binary:
+    - sash
+  score_floor: 4
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-scanmem-shell
+  name: GTFOBins scanmem — shell
+  match:
+    binary:
+    - scanmem
+  score_floor: 4
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-scp-shell
+  name: GTFOBins scp — shell
+  match:
+    binary:
+    - scp
+  score_floor: 4
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-screen-file-write
+  name: GTFOBins screen — file-write
+  match:
+    binary:
+    - screen
+  score_floor: 4
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-screen-shell
+  name: GTFOBins screen — shell
+  match:
+    binary:
+    - screen
+  score_floor: 4
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-script-file-write
+  name: GTFOBins script — file-write
+  match:
+    binary:
+    - script
+  score_floor: 4
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-script-shell
+  name: GTFOBins script — shell
+  match:
+    binary:
+    - script
+  score_floor: 4
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-scrot-shell
+  name: GTFOBins scrot — shell
+  match:
+    binary:
+    - scrot
+  score_floor: 4
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-service-shell
+  name: GTFOBins service — shell
+  match:
+    binary:
+    - service
+  score_floor: 4
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-setarch-shell
+  name: GTFOBins setarch — shell
+  match:
+    binary:
+    - setarch
+  score_floor: 4
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-setlock-shell
+  name: GTFOBins setlock — shell
+  match:
+    binary:
+    - setlock
+  score_floor: 4
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-sftp-shell
+  name: GTFOBins sftp — shell
+  match:
+    binary:
+    - sftp
+  score_floor: 4
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-sg-shell
+  name: GTFOBins sg — shell
+  match:
+    binary:
+    - sg
+  score_floor: 4
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-shred-file-write
+  name: GTFOBins shred — file-write
+  match:
+    binary:
+    - shred
+  score_floor: 4
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-shuf-file-read
+  name: GTFOBins shuf — file-read
+  match:
+    binary:
+    - shuf
+  score_floor: 3
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-shuf-file-write
+  name: GTFOBins shuf — file-write
+  match:
+    binary:
+    - shuf
+  score_floor: 4
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-slsh-shell
+  name: GTFOBins slsh — shell
+  match:
+    binary:
+    - slsh
+  score_floor: 4
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-smbclient-shell
+  name: GTFOBins smbclient — shell
+  match:
+    binary:
+    - smbclient
+  score_floor: 4
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-snap-command
+  name: GTFOBins snap — command
+  match:
+    binary:
+    - snap
+  score_floor: 3
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-socat-bind-shell
+  name: GTFOBins socat — bind-shell
+  match:
+    binary:
+    - socat
+  score_floor: 5
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-socat-file-read
+  name: GTFOBins socat — file-read
+  match:
+    binary:
+    - socat
+  score_floor: 3
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-socat-file-write
+  name: GTFOBins socat — file-write
+  match:
+    binary:
+    - socat
+  score_floor: 4
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-socat-reverse-shell
+  name: GTFOBins socat — reverse-shell
+  match:
+    binary:
+    - socat
+  score_floor: 6
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-socat-shell
+  name: GTFOBins socat — shell
+  match:
+    binary:
+    - socat
+  score_floor: 4
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-socket-bind-shell
+  name: GTFOBins socket — bind-shell
+  match:
+    binary:
+    - socket
+  score_floor: 5
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-socket-reverse-shell
+  name: GTFOBins socket — reverse-shell
+  match:
+    binary:
+    - socket
+  score_floor: 6
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-soelim-file-read
+  name: GTFOBins soelim — file-read
+  match:
+    binary:
+    - soelim
+  score_floor: 3
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-softlimit-shell
+  name: GTFOBins softlimit — shell
+  match:
+    binary:
+    - softlimit
+  score_floor: 4
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-split-file-read
+  name: GTFOBins split — file-read
+  match:
+    binary:
+    - split
+  score_floor: 3
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-split-file-write
+  name: GTFOBins split — file-write
+  match:
+    binary:
+    - split
+  score_floor: 4
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-split-shell
+  name: GTFOBins split — shell
+  match:
+    binary:
+    - split
+  score_floor: 4
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-sqlite3-file-read
+  name: GTFOBins sqlite3 — file-read
+  match:
+    binary:
+    - sqlite3
+  score_floor: 3
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-sqlite3-file-write
+  name: GTFOBins sqlite3 — file-write
+  match:
+    binary:
+    - sqlite3
+  score_floor: 4
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-sqlite3-shell
+  name: GTFOBins sqlite3 — shell
+  match:
+    binary:
+    - sqlite3
+  score_floor: 4
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-ss-file-read
+  name: GTFOBins ss — file-read
+  match:
+    binary:
+    - ss
+  score_floor: 3
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-ssh-file-read
+  name: GTFOBins ssh — file-read
+  match:
+    binary:
+    - ssh
+  score_floor: 3
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-ssh-shell
+  name: GTFOBins ssh — shell
+  match:
+    binary:
+    - ssh
+  score_floor: 4
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-ssh-agent-shell
+  name: GTFOBins ssh-agent — shell
+  match:
+    binary:
+    - ssh-agent
+  score_floor: 4
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-ssh-copy-id-file-read
+  name: GTFOBins ssh-copy-id — file-read
+  match:
+    binary:
+    - ssh-copy-id
+  score_floor: 3
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-ssh-copy-id-file-write
+  name: GTFOBins ssh-copy-id — file-write
+  match:
+    binary:
+    - ssh-copy-id
+  score_floor: 4
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-ssh-keygen-library-load
+  name: GTFOBins ssh-keygen — library-load
+  match:
+    binary:
+    - ssh-keygen
+  score_floor: 5
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-ssh-keyscan-file-read
+  name: GTFOBins ssh-keyscan — file-read
+  match:
+    binary:
+    - ssh-keyscan
+  score_floor: 3
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-sshfs-command
+  name: GTFOBins sshfs — command
+  match:
+    binary:
+    - sshfs
+  score_floor: 3
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-sshfs-shell
+  name: GTFOBins sshfs — shell
+  match:
+    binary:
+    - sshfs
+  score_floor: 4
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-sshpass-shell
+  name: GTFOBins sshpass — shell
+  match:
+    binary:
+    - sshpass
+  score_floor: 4
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-sshuttle-shell
+  name: GTFOBins sshuttle — shell
+  match:
+    binary:
+    - sshuttle
+  score_floor: 4
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-start-stop-daemon-shell
+  name: GTFOBins start-stop-daemon — shell
+  match:
+    binary:
+    - start-stop-daemon
+  score_floor: 4
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-stdbuf-shell
+  name: GTFOBins stdbuf — shell
+  match:
+    binary:
+    - stdbuf
+  score_floor: 4
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-strace-file-write
+  name: GTFOBins strace — file-write
+  match:
+    binary:
+    - strace
+  score_floor: 4
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-strace-shell
+  name: GTFOBins strace — shell
+  match:
+    binary:
+    - strace
+  score_floor: 4
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-strings-file-read
+  name: GTFOBins strings — file-read
+  match:
+    binary:
+    - strings
+  score_floor: 3
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-su-shell
+  name: GTFOBins su — shell
+  match:
+    binary:
+    - su
+  score_floor: 4
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-sudo-shell
+  name: GTFOBins sudo — shell
+  match:
+    binary:
+    - sudo
+  score_floor: 4
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-sysctl-command
+  name: GTFOBins sysctl — command
+  match:
+    binary:
+    - sysctl
+  score_floor: 3
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-sysctl-file-read
+  name: GTFOBins sysctl — file-read
+  match:
+    binary:
+    - sysctl
+  score_floor: 3
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-systemctl-shell
+  name: GTFOBins systemctl — shell
+  match:
+    binary:
+    - systemctl
+  score_floor: 4
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-systemd-run-command
+  name: GTFOBins systemd-run — command
+  match:
+    binary:
+    - systemd-run
+  score_floor: 3
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-systemd-run-shell
+  name: GTFOBins systemd-run — shell
+  match:
+    binary:
+    - systemd-run
+  score_floor: 4
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-tac-file-read
+  name: GTFOBins tac — file-read
+  match:
+    binary:
+    - tac
+  score_floor: 3
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-tar-file-read
+  name: GTFOBins tar — file-read
+  match:
+    binary:
+    - tar
+  score_floor: 3
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-tar-file-write
+  name: GTFOBins tar — file-write
+  match:
+    binary:
+    - tar
+  score_floor: 4
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-tar-shell
+  name: GTFOBins tar — shell
+  match:
+    binary:
+    - tar
+  score_floor: 4
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-task-shell
+  name: GTFOBins task — shell
+  match:
+    binary:
+    - task
+  score_floor: 4
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-taskset-shell
+  name: GTFOBins taskset — shell
+  match:
+    binary:
+    - taskset
+  score_floor: 4
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-tasksh-shell
+  name: GTFOBins tasksh — shell
+  match:
+    binary:
+    - tasksh
+  score_floor: 4
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-tbl-file-read
+  name: GTFOBins tbl — file-read
+  match:
+    binary:
+    - tbl
+  score_floor: 3
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-tclsh-library-load
+  name: GTFOBins tclsh — library-load
+  match:
+    binary:
+    - tclsh
+  score_floor: 5
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-tclsh-reverse-shell
+  name: GTFOBins tclsh — reverse-shell
+  match:
+    binary:
+    - tclsh
+  score_floor: 6
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-tclsh-shell
+  name: GTFOBins tclsh — shell
+  match:
+    binary:
+    - tclsh
+  score_floor: 4
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-tcpdump-command
+  name: GTFOBins tcpdump — command
+  match:
+    binary:
+    - tcpdump
+  score_floor: 3
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-tcpdump-file-write
+  name: GTFOBins tcpdump — file-write
+  match:
+    binary:
+    - tcpdump
+  score_floor: 4
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-tdbtool-shell
+  name: GTFOBins tdbtool — shell
+  match:
+    binary:
+    - tdbtool
+  score_floor: 4
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-tee-file-write
+  name: GTFOBins tee — file-write
+  match:
+    binary:
+    - tee
+  score_floor: 4
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-telnet-reverse-shell
+  name: GTFOBins telnet — reverse-shell
+  match:
+    binary:
+    - telnet
+  score_floor: 6
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-telnet-shell
+  name: GTFOBins telnet — shell
+  match:
+    binary:
+    - telnet
+  score_floor: 4
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-tex-shell
+  name: GTFOBins tex — shell
+  match:
+    binary:
+    - tex
+  score_floor: 4
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-tic-file-read
+  name: GTFOBins tic — file-read
+  match:
+    binary:
+    - tic
+  score_floor: 3
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-time-shell
+  name: GTFOBins time — shell
+  match:
+    binary:
+    - time
+  score_floor: 4
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-timeout-shell
+  name: GTFOBins timeout — shell
+  match:
+    binary:
+    - timeout
+  score_floor: 4
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-tmate-shell
+  name: GTFOBins tmate — shell
+  match:
+    binary:
+    - tmate
+  score_floor: 4
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-tmux-file-read
+  name: GTFOBins tmux — file-read
+  match:
+    binary:
+    - tmux
+  score_floor: 3
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-tmux-shell
+  name: GTFOBins tmux — shell
+  match:
+    binary:
+    - tmux
+  score_floor: 4
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-top-shell
+  name: GTFOBins top — shell
+  match:
+    binary:
+    - top
+  score_floor: 4
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-torify-shell
+  name: GTFOBins torify — shell
+  match:
+    binary:
+    - torify
+  score_floor: 4
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-torsocks-shell
+  name: GTFOBins torsocks — shell
+  match:
+    binary:
+    - torsocks
+  score_floor: 4
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-troff-file-read
+  name: GTFOBins troff — file-read
+  match:
+    binary:
+    - troff
+  score_floor: 3
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-tsc-file-read
+  name: GTFOBins tsc — file-read
+  match:
+    binary:
+    - tsc
+  score_floor: 3
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-tsc-file-write
+  name: GTFOBins tsc — file-write
+  match:
+    binary:
+    - tsc
+  score_floor: 4
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-ul-file-read
+  name: GTFOBins ul — file-read
+  match:
+    binary:
+    - ul
+  score_floor: 3
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-unexpand-file-read
+  name: GTFOBins unexpand — file-read
+  match:
+    binary:
+    - unexpand
+  score_floor: 3
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-unshare-shell
+  name: GTFOBins unshare — shell
+  match:
+    binary:
+    - unshare
+  score_floor: 4
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-update-alternatives-file-write
+  name: GTFOBins update-alternatives — file-write
+  match:
+    binary:
+    - update-alternatives
+  score_floor: 4
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-urlget-file-read
+  name: GTFOBins urlget — file-read
+  match:
+    binary:
+    - urlget
+  score_floor: 3
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-uuencode-file-read
+  name: GTFOBins uuencode — file-read
+  match:
+    binary:
+    - uuencode
+  score_floor: 3
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-uv-shell
+  name: GTFOBins uv — shell
+  match:
+    binary:
+    - uv
+  score_floor: 4
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-valgrind-shell
+  name: GTFOBins valgrind — shell
+  match:
+    binary:
+    - valgrind
+  score_floor: 4
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-varnishncsa-file-write
+  name: GTFOBins varnishncsa — file-write
+  match:
+    binary:
+    - varnishncsa
+  score_floor: 4
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-virsh-command
+  name: GTFOBins virsh — command
+  match:
+    binary:
+    - virsh
+  score_floor: 3
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-virsh-file-write
+  name: GTFOBins virsh — file-write
+  match:
+    binary:
+    - virsh
+  score_floor: 4
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-w3m-file-read
+  name: GTFOBins w3m — file-read
+  match:
+    binary:
+    - w3m
+  score_floor: 3
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-wall-file-read
+  name: GTFOBins wall — file-read
+  match:
+    binary:
+    - wall
+  score_floor: 3
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-watch-shell
+  name: GTFOBins watch — shell
+  match:
+    binary:
+    - watch
+  score_floor: 4
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-wg-quick-shell
+  name: GTFOBins wg-quick — shell
+  match:
+    binary:
+    - wg-quick
+  score_floor: 4
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-wget-file-read
+  name: GTFOBins wget — file-read
+  match:
+    binary:
+    - wget
+  score_floor: 3
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-wget-file-write
+  name: GTFOBins wget — file-write
+  match:
+    binary:
+    - wget
+  score_floor: 4
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-wget-shell
+  name: GTFOBins wget — shell
+  match:
+    binary:
+    - wget
+  score_floor: 4
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-whiptail-file-read
+  name: GTFOBins whiptail — file-read
+  match:
+    binary:
+    - whiptail
+  score_floor: 3
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-wireshark-file-write
+  name: GTFOBins wireshark — file-write
+  match:
+    binary:
+    - wireshark
+  score_floor: 4
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-xdg-user-dir-shell
+  name: GTFOBins xdg-user-dir — shell
+  match:
+    binary:
+    - xdg-user-dir
+  score_floor: 4
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-xdotool-shell
+  name: GTFOBins xdotool — shell
+  match:
+    binary:
+    - xdotool
+  score_floor: 4
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-xmodmap-file-read
+  name: GTFOBins xmodmap — file-read
+  match:
+    binary:
+    - xmodmap
+  score_floor: 3
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-xmore-file-read
+  name: GTFOBins xmore — file-read
+  match:
+    binary:
+    - xmore
+  score_floor: 3
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-xpad-file-read
+  name: GTFOBins xpad — file-read
+  match:
+    binary:
+    - xpad
+  score_floor: 3
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-xxd-file-read
+  name: GTFOBins xxd — file-read
+  match:
+    binary:
+    - xxd
+  score_floor: 3
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-xxd-file-write
+  name: GTFOBins xxd — file-write
+  match:
+    binary:
+    - xxd
+  score_floor: 4
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-xz-file-read
+  name: GTFOBins xz — file-read
+  match:
+    binary:
+    - xz
+  score_floor: 3
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-yash-shell
+  name: GTFOBins yash — shell
+  match:
+    binary:
+    - yash
+  score_floor: 4
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-yelp-file-read
+  name: GTFOBins yelp — file-read
+  match:
+    binary:
+    - yelp
+  score_floor: 3
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-yt-dlp-shell
+  name: GTFOBins yt-dlp — shell
+  match:
+    binary:
+    - yt-dlp
+  score_floor: 4
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-yum-command
+  name: GTFOBins yum — command
+  match:
+    binary:
+    - yum
+  score_floor: 3
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-zathura-shell
+  name: GTFOBins zathura — shell
+  match:
+    binary:
+    - zathura
+  score_floor: 4
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-zcat-file-read
+  name: GTFOBins zcat — file-read
+  match:
+    binary:
+    - zcat
+  score_floor: 3
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-zgrep-file-read
+  name: GTFOBins zgrep — file-read
+  match:
+    binary:
+    - zgrep
+  score_floor: 3
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-zic-command
+  name: GTFOBins zic — command
+  match:
+    binary:
+    - zic
+  score_floor: 3
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-zip-file-read
+  name: GTFOBins zip — file-read
+  match:
+    binary:
+    - zip
+  score_floor: 3
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-zip-shell
+  name: GTFOBins zip — shell
+  match:
+    binary:
+    - zip
+  score_floor: 4
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-zsoelim-file-read
+  name: GTFOBins zsoelim — file-read
+  match:
+    binary:
+    - zsoelim
+  score_floor: 3
+  source: gtfobins_round_7
+- id: lr-gtfo-r7-zypper-shell
+  name: GTFOBins zypper — shell
+  match:
+    binary:
+    - zypper
+  score_floor: 4
+  source: gtfobins_round_7

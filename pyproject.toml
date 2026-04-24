@@ -1,0 +1,51 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ralf-free"
+version = "0.1.0a1"
+description = "Pre-execution command firewall for AI coding agents."
+requires-python = ">=3.10"
+dependencies = [
+    "PyYAML>=5.4",
+    "tomli>=1.1 ; python_version < '3.11'",
+]
+license = { text = "BSL-1.1" }
+readme = "README.md"
+authors = [{ name = "Tim Meyers" }]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Operating System :: POSIX :: Linux",
+    "Operating System :: MacOS :: MacOS X",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+]
+
+[project.scripts]
+ralf-free = "ralf.shared.cli:main"
+
+[project.optional-dependencies]
+dev = ["pytest>=7.0"]
+dashboard = ["flask>=3.0"]
+
+[tool.setuptools]
+packages = [
+    "ralf",
+    "ralf.adapters",
+    "ralf.core",
+    "ralf.dashboard",
+    "ralf.detection",
+    "ralf.injection",
+    "ralf.linux",
+    "ralf.macos",
+    "ralf.provenance",
+    "ralf.scanner",
+    "ralf.scripts",
+    "ralf.shared",
+]
+include-package-data = true
+
+[tool.setuptools.package-data]
+ralf = ["data/learned_rules.yaml", "dashboard/templates/*.html", "dashboard/static/*"]

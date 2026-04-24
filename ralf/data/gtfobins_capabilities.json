@@ -1,0 +1,5546 @@
+{
+  "version": 2,
+  "source": "gtfobins.github.io",
+  "license_note": "GTFOBins is CC-BY-3.0 public security knowledge, sourced from github.com/GTFOBins/GTFOBins.github.io and refreshed via ralf-free sync gtfobins.",
+  "upstream_url": "https://codeload.github.com/GTFOBins/GTFOBins.github.io/zip/refs/heads/master",
+  "last_updated": "2026-04-23",
+  "description": "Complete Linux offensive-binary catalog synced from the GTFOBins community repository. Each binary lists its abuse-function set (shell, file-read, library-load, sudo, suid, etc.) and the RALF capability tags + intent + score floors derived from those functions.",
+  "binaries": [
+    {
+      "name": "7z",
+      "path": "",
+      "short_description": "7z — see gtfobins.github.io",
+      "capability_tags": [
+        "collection"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "file-read"
+      ],
+      "intent": "read"
+    },
+    {
+      "name": "aa-exec",
+      "path": "",
+      "short_description": "aa-exec — see gtfobins.github.io",
+      "capability_tags": [
+        "execution"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "shell"
+      ],
+      "intent": "spawn_shell"
+    },
+    {
+      "name": "acr",
+      "path": "",
+      "short_description": "acr — see gtfobins.github.io",
+      "capability_tags": [
+        "execution"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "command"
+      ],
+      "intent": "spawn_shell"
+    },
+    {
+      "name": "agetty",
+      "path": "",
+      "short_description": "agetty — see gtfobins.github.io",
+      "capability_tags": [
+        "execution"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "shell"
+      ],
+      "intent": "spawn_shell"
+    },
+    {
+      "name": "alpine",
+      "path": "",
+      "short_description": "alpine — see gtfobins.github.io",
+      "capability_tags": [
+        "collection"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "file-read"
+      ],
+      "intent": "read"
+    },
+    {
+      "name": "ansible-playbook",
+      "path": "",
+      "short_description": "ansible-playbook — see gtfobins.github.io",
+      "capability_tags": [
+        "execution"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "shell"
+      ],
+      "intent": "spawn_shell"
+    },
+    {
+      "name": "ansible-test",
+      "path": "",
+      "short_description": "ansible-test — see gtfobins.github.io",
+      "capability_tags": [
+        "execution"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "shell"
+      ],
+      "intent": "spawn_shell"
+    },
+    {
+      "name": "aoss",
+      "path": "",
+      "short_description": "aoss — see gtfobins.github.io",
+      "capability_tags": [
+        "execution"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "shell"
+      ],
+      "intent": "spawn_shell"
+    },
+    {
+      "name": "apache2",
+      "path": "",
+      "short_description": "apache2 — see gtfobins.github.io",
+      "capability_tags": [
+        "collection"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "file-read"
+      ],
+      "intent": "read"
+    },
+    {
+      "name": "apache2ctl",
+      "path": "",
+      "short_description": "apache2ctl — see gtfobins.github.io",
+      "capability_tags": [
+        "collection"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "file-read"
+      ],
+      "intent": "read"
+    },
+    {
+      "name": "apt-get",
+      "path": "",
+      "short_description": "apt-get — see gtfobins.github.io",
+      "capability_tags": [
+        "execution"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "shell"
+      ],
+      "intent": "spawn_shell"
+    },
+    {
+      "name": "ar",
+      "path": "",
+      "short_description": "ar — see gtfobins.github.io",
+      "capability_tags": [
+        "collection"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "file-read"
+      ],
+      "intent": "read"
+    },
+    {
+      "name": "arch-nspawn",
+      "path": "",
+      "short_description": "arch-nspawn — see gtfobins.github.io",
+      "capability_tags": [
+        "execution"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "shell"
+      ],
+      "intent": "spawn_shell"
+    },
+    {
+      "name": "aria2c",
+      "path": "",
+      "short_description": "aria2c — see gtfobins.github.io",
+      "capability_tags": [
+        "collection",
+        "execution"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "command",
+        "file-read"
+      ],
+      "intent": "read"
+    },
+    {
+      "name": "arj",
+      "path": "",
+      "short_description": "arj — see gtfobins.github.io",
+      "capability_tags": [
+        "collection",
+        "persistence"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "file-read",
+        "file-write"
+      ],
+      "intent": "modify"
+    },
+    {
+      "name": "arp",
+      "path": "",
+      "short_description": "arp — see gtfobins.github.io",
+      "capability_tags": [
+        "collection"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "file-read"
+      ],
+      "intent": "read"
+    },
+    {
+      "name": "as",
+      "path": "",
+      "short_description": "as — see gtfobins.github.io",
+      "capability_tags": [
+        "collection"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "file-read"
+      ],
+      "intent": "read"
+    },
+    {
+      "name": "ascii-xfr",
+      "path": "",
+      "short_description": "ascii-xfr — see gtfobins.github.io",
+      "capability_tags": [
+        "collection"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "file-read"
+      ],
+      "intent": "read"
+    },
+    {
+      "name": "ascii85",
+      "path": "",
+      "short_description": "ascii85 — see gtfobins.github.io",
+      "capability_tags": [
+        "collection"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "file-read"
+      ],
+      "intent": "read"
+    },
+    {
+      "name": "ash",
+      "path": "",
+      "short_description": "ash — see gtfobins.github.io",
+      "capability_tags": [
+        "execution",
+        "persistence"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "file-write",
+        "shell"
+      ],
+      "intent": "spawn_shell"
+    },
+    {
+      "name": "aspell",
+      "path": "",
+      "short_description": "aspell — see gtfobins.github.io",
+      "capability_tags": [
+        "collection"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "file-read"
+      ],
+      "intent": "read"
+    },
+    {
+      "name": "asterisk",
+      "path": "",
+      "short_description": "asterisk — see gtfobins.github.io",
+      "capability_tags": [
+        "execution"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "shell"
+      ],
+      "intent": "spawn_shell"
+    },
+    {
+      "name": "at",
+      "path": "",
+      "short_description": "at — see gtfobins.github.io",
+      "capability_tags": [
+        "execution"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "command",
+        "shell"
+      ],
+      "intent": "spawn_shell"
+    },
+    {
+      "name": "atobm",
+      "path": "",
+      "short_description": "atobm — see gtfobins.github.io",
+      "capability_tags": [
+        "collection"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "file-read"
+      ],
+      "intent": "read"
+    },
+    {
+      "name": "autoconf",
+      "path": "",
+      "short_description": "autoconf — see gtfobins.github.io",
+      "capability_tags": [
+        "execution"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "shell"
+      ],
+      "intent": "spawn_shell"
+    },
+    {
+      "name": "autoheader",
+      "path": "",
+      "short_description": "autoheader — see gtfobins.github.io",
+      "capability_tags": [
+        "execution"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "shell"
+      ],
+      "intent": "spawn_shell"
+    },
+    {
+      "name": "autoreconf",
+      "path": "",
+      "short_description": "autoreconf — see gtfobins.github.io",
+      "capability_tags": [
+        "execution"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "shell"
+      ],
+      "intent": "spawn_shell"
+    },
+    {
+      "name": "aws",
+      "path": "",
+      "short_description": "aws — see gtfobins.github.io",
+      "capability_tags": [
+        "collection"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "file-read"
+      ],
+      "intent": "read"
+    },
+    {
+      "name": "base32",
+      "path": "",
+      "short_description": "base32 — see gtfobins.github.io",
+      "capability_tags": [
+        "collection"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "file-read"
+      ],
+      "intent": "read"
+    },
+    {
+      "name": "base58",
+      "path": "",
+      "short_description": "base58 — see gtfobins.github.io",
+      "capability_tags": [
+        "collection"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "file-read"
+      ],
+      "intent": "read"
+    },
+    {
+      "name": "base64",
+      "path": "",
+      "short_description": "base64 — see gtfobins.github.io",
+      "capability_tags": [
+        "collection"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "file-read"
+      ],
+      "intent": "read"
+    },
+    {
+      "name": "basenc",
+      "path": "",
+      "short_description": "basenc — see gtfobins.github.io",
+      "capability_tags": [
+        "collection"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "file-read"
+      ],
+      "intent": "read"
+    },
+    {
+      "name": "basez",
+      "path": "",
+      "short_description": "basez — see gtfobins.github.io",
+      "capability_tags": [
+        "collection"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "file-read"
+      ],
+      "intent": "read"
+    },
+    {
+      "name": "bash",
+      "path": "",
+      "short_description": "bash — see gtfobins.github.io",
+      "capability_tags": [
+        "collection",
+        "command_and_control",
+        "execution",
+        "persistence"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "file-read",
+        "file-write",
+        "library-load",
+        "reverse-shell",
+        "shell"
+      ],
+      "intent": "exfiltrate"
+    },
+    {
+      "name": "bbot",
+      "path": "",
+      "short_description": "bbot — see gtfobins.github.io",
+      "capability_tags": [
+        "collection"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "file-read"
+      ],
+      "intent": "read"
+    },
+    {
+      "name": "bc",
+      "path": "",
+      "short_description": "bc — see gtfobins.github.io",
+      "capability_tags": [
+        "collection"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "file-read"
+      ],
+      "intent": "read"
+    },
+    {
+      "name": "bconsole",
+      "path": "",
+      "short_description": "bconsole — see gtfobins.github.io",
+      "capability_tags": [
+        "collection",
+        "execution"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "file-read",
+        "shell"
+      ],
+      "intent": "spawn_shell"
+    },
+    {
+      "name": "borg",
+      "path": "",
+      "short_description": "borg — see gtfobins.github.io",
+      "capability_tags": [
+        "execution"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "shell"
+      ],
+      "intent": "spawn_shell"
+    },
+    {
+      "name": "bpftrace",
+      "path": "",
+      "short_description": "bpftrace — see gtfobins.github.io",
+      "capability_tags": [
+        "execution"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "shell"
+      ],
+      "intent": "spawn_shell"
+    },
+    {
+      "name": "bridge",
+      "path": "",
+      "short_description": "bridge — see gtfobins.github.io",
+      "capability_tags": [
+        "collection"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "file-read"
+      ],
+      "intent": "read"
+    },
+    {
+      "name": "bundle",
+      "path": "",
+      "short_description": "bundle — see gtfobins.github.io",
+      "capability_tags": [
+        "execution"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "shell"
+      ],
+      "intent": "spawn_shell"
+    },
+    {
+      "name": "busctl",
+      "path": "",
+      "short_description": "busctl — see gtfobins.github.io",
+      "capability_tags": [
+        "execution"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "shell"
+      ],
+      "intent": "spawn_shell"
+    },
+    {
+      "name": "busybox",
+      "path": "",
+      "short_description": "busybox — see gtfobins.github.io",
+      "capability_tags": [
+        "command_and_control"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "reverse-shell"
+      ],
+      "intent": "exfiltrate"
+    },
+    {
+      "name": "bzip2",
+      "path": "",
+      "short_description": "bzip2 — see gtfobins.github.io",
+      "capability_tags": [
+        "collection"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "file-read"
+      ],
+      "intent": "read"
+    },
+    {
+      "name": "cabal",
+      "path": "",
+      "short_description": "cabal — see gtfobins.github.io",
+      "capability_tags": [
+        "execution"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "shell"
+      ],
+      "intent": "spawn_shell"
+    },
+    {
+      "name": "capsh",
+      "path": "",
+      "short_description": "capsh — see gtfobins.github.io",
+      "capability_tags": [
+        "execution"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "shell"
+      ],
+      "intent": "spawn_shell"
+    },
+    {
+      "name": "cat",
+      "path": "",
+      "short_description": "cat — see gtfobins.github.io",
+      "capability_tags": [
+        "collection"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "file-read"
+      ],
+      "intent": "read"
+    },
+    {
+      "name": "cdist",
+      "path": "",
+      "short_description": "cdist — see gtfobins.github.io",
+      "capability_tags": [
+        "execution"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "shell"
+      ],
+      "intent": "spawn_shell"
+    },
+    {
+      "name": "certbot",
+      "path": "",
+      "short_description": "certbot — see gtfobins.github.io",
+      "capability_tags": [
+        "execution"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "shell"
+      ],
+      "intent": "spawn_shell"
+    },
+    {
+      "name": "check_by_ssh",
+      "path": "",
+      "short_description": "check_by_ssh — see gtfobins.github.io",
+      "capability_tags": [
+        "execution"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "shell"
+      ],
+      "intent": "spawn_shell"
+    },
+    {
+      "name": "check_cups",
+      "path": "",
+      "short_description": "check_cups — see gtfobins.github.io",
+      "capability_tags": [
+        "collection"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "file-read"
+      ],
+      "intent": "read"
+    },
+    {
+      "name": "check_log",
+      "path": "",
+      "short_description": "check_log — see gtfobins.github.io",
+      "capability_tags": [
+        "collection",
+        "persistence"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "file-read",
+        "file-write"
+      ],
+      "intent": "modify"
+    },
+    {
+      "name": "check_memory",
+      "path": "",
+      "short_description": "check_memory — see gtfobins.github.io",
+      "capability_tags": [
+        "collection"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "file-read"
+      ],
+      "intent": "read"
+    },
+    {
+      "name": "check_raid",
+      "path": "",
+      "short_description": "check_raid — see gtfobins.github.io",
+      "capability_tags": [
+        "collection"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "file-read"
+      ],
+      "intent": "read"
+    },
+    {
+      "name": "check_ssl_cert",
+      "path": "",
+      "short_description": "check_ssl_cert — see gtfobins.github.io",
+      "capability_tags": [
+        "execution"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "shell"
+      ],
+      "intent": "spawn_shell"
+    },
+    {
+      "name": "check_statusfile",
+      "path": "",
+      "short_description": "check_statusfile — see gtfobins.github.io",
+      "capability_tags": [
+        "collection"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "file-read"
+      ],
+      "intent": "read"
+    },
+    {
+      "name": "choom",
+      "path": "",
+      "short_description": "choom — see gtfobins.github.io",
+      "capability_tags": [
+        "execution"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "shell"
+      ],
+      "intent": "spawn_shell"
+    },
+    {
+      "name": "chroot",
+      "path": "",
+      "short_description": "chroot — see gtfobins.github.io",
+      "capability_tags": [
+        "execution"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "shell"
+      ],
+      "intent": "spawn_shell"
+    },
+    {
+      "name": "chrt",
+      "path": "",
+      "short_description": "chrt — see gtfobins.github.io",
+      "capability_tags": [
+        "execution"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "shell"
+      ],
+      "intent": "spawn_shell"
+    },
+    {
+      "name": "clamscan",
+      "path": "",
+      "short_description": "clamscan — see gtfobins.github.io",
+      "capability_tags": [
+        "collection"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "file-read"
+      ],
+      "intent": "read"
+    },
+    {
+      "name": "clisp",
+      "path": "",
+      "short_description": "clisp — see gtfobins.github.io",
+      "capability_tags": [
+        "execution"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "shell"
+      ],
+      "intent": "spawn_shell"
+    },
+    {
+      "name": "cmake",
+      "path": "",
+      "short_description": "cmake — see gtfobins.github.io",
+      "capability_tags": [
+        "collection",
+        "execution"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "file-read",
+        "shell"
+      ],
+      "intent": "spawn_shell"
+    },
+    {
+      "name": "cmp",
+      "path": "",
+      "short_description": "cmp — see gtfobins.github.io",
+      "capability_tags": [
+        "collection"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "file-read"
+      ],
+      "intent": "read"
+    },
+    {
+      "name": "cobc",
+      "path": "",
+      "short_description": "cobc — see gtfobins.github.io",
+      "capability_tags": [
+        "execution"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "shell"
+      ],
+      "intent": "spawn_shell"
+    },
+    {
+      "name": "code",
+      "path": "",
+      "short_description": "code — see gtfobins.github.io",
+      "capability_tags": [
+        "command_and_control"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "reverse-shell"
+      ],
+      "intent": "exfiltrate"
+    },
+    {
+      "name": "codex",
+      "path": "",
+      "short_description": "codex — see gtfobins.github.io",
+      "capability_tags": [
+        "execution"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "shell"
+      ],
+      "intent": "spawn_shell"
+    },
+    {
+      "name": "column",
+      "path": "",
+      "short_description": "column — see gtfobins.github.io",
+      "capability_tags": [
+        "collection"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "file-read"
+      ],
+      "intent": "read"
+    },
+    {
+      "name": "comm",
+      "path": "",
+      "short_description": "comm — see gtfobins.github.io",
+      "capability_tags": [
+        "collection"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "file-read"
+      ],
+      "intent": "read"
+    },
+    {
+      "name": "composer",
+      "path": "",
+      "short_description": "composer — see gtfobins.github.io",
+      "capability_tags": [
+        "execution"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "shell"
+      ],
+      "intent": "spawn_shell"
+    },
+    {
+      "name": "cp",
+      "path": "",
+      "short_description": "cp — see gtfobins.github.io",
+      "capability_tags": [
+        "collection",
+        "persistence"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "file-read",
+        "file-write"
+      ],
+      "intent": "modify"
+    },
+    {
+      "name": "cpio",
+      "path": "",
+      "short_description": "cpio — see gtfobins.github.io",
+      "capability_tags": [
+        "collection",
+        "execution",
+        "persistence"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "file-read",
+        "file-write",
+        "shell"
+      ],
+      "intent": "spawn_shell"
+    },
+    {
+      "name": "cpulimit",
+      "path": "",
+      "short_description": "cpulimit — see gtfobins.github.io",
+      "capability_tags": [
+        "execution"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "shell"
+      ],
+      "intent": "spawn_shell"
+    },
+    {
+      "name": "crash",
+      "path": "",
+      "short_description": "crash — see gtfobins.github.io",
+      "capability_tags": [
+        "execution"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "command"
+      ],
+      "intent": "spawn_shell"
+    },
+    {
+      "name": "crontab",
+      "path": "",
+      "short_description": "crontab — see gtfobins.github.io",
+      "capability_tags": [
+        "execution"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "command"
+      ],
+      "intent": "spawn_shell"
+    },
+    {
+      "name": "csh",
+      "path": "",
+      "short_description": "csh — see gtfobins.github.io",
+      "capability_tags": [
+        "execution",
+        "persistence"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "file-write",
+        "shell"
+      ],
+      "intent": "spawn_shell"
+    },
+    {
+      "name": "csplit",
+      "path": "",
+      "short_description": "csplit — see gtfobins.github.io",
+      "capability_tags": [
+        "collection",
+        "persistence"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "file-read",
+        "file-write"
+      ],
+      "intent": "modify"
+    },
+    {
+      "name": "csvtool",
+      "path": "",
+      "short_description": "csvtool — see gtfobins.github.io",
+      "capability_tags": [
+        "collection",
+        "execution",
+        "persistence"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "file-read",
+        "file-write",
+        "shell"
+      ],
+      "intent": "spawn_shell"
+    },
+    {
+      "name": "ctr",
+      "path": "",
+      "short_description": "ctr — see gtfobins.github.io",
+      "capability_tags": [
+        "execution"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "shell"
+      ],
+      "intent": "spawn_shell"
+    },
+    {
+      "name": "cupsfilter",
+      "path": "",
+      "short_description": "cupsfilter — see gtfobins.github.io",
+      "capability_tags": [
+        "collection"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "file-read"
+      ],
+      "intent": "read"
+    },
+    {
+      "name": "curl",
+      "path": "",
+      "short_description": "curl — see gtfobins.github.io",
+      "capability_tags": [
+        "collection",
+        "execution",
+        "persistence"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "file-read",
+        "file-write",
+        "library-load"
+      ],
+      "intent": "spawn_shell"
+    },
+    {
+      "name": "cut",
+      "path": "",
+      "short_description": "cut — see gtfobins.github.io",
+      "capability_tags": [
+        "collection"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "file-read"
+      ],
+      "intent": "read"
+    },
+    {
+      "name": "dash",
+      "path": "",
+      "short_description": "dash — see gtfobins.github.io",
+      "capability_tags": [
+        "execution",
+        "persistence"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "file-write",
+        "shell"
+      ],
+      "intent": "spawn_shell"
+    },
+    {
+      "name": "date",
+      "path": "",
+      "short_description": "date — see gtfobins.github.io",
+      "capability_tags": [
+        "collection"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "file-read"
+      ],
+      "intent": "read"
+    },
+    {
+      "name": "dc",
+      "path": "",
+      "short_description": "dc — see gtfobins.github.io",
+      "capability_tags": [
+        "execution"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "shell"
+      ],
+      "intent": "spawn_shell"
+    },
+    {
+      "name": "dd",
+      "path": "",
+      "short_description": "dd — see gtfobins.github.io",
+      "capability_tags": [
+        "collection",
+        "persistence"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "file-read",
+        "file-write"
+      ],
+      "intent": "modify"
+    },
+    {
+      "name": "debugfs",
+      "path": "",
+      "short_description": "debugfs — see gtfobins.github.io",
+      "capability_tags": [
+        "execution"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "shell"
+      ],
+      "intent": "spawn_shell"
+    },
+    {
+      "name": "dhclient",
+      "path": "",
+      "short_description": "dhclient — see gtfobins.github.io",
+      "capability_tags": [
+        "execution"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "shell"
+      ],
+      "intent": "spawn_shell"
+    },
+    {
+      "name": "dialog",
+      "path": "",
+      "short_description": "dialog — see gtfobins.github.io",
+      "capability_tags": [
+        "collection"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "file-read"
+      ],
+      "intent": "read"
+    },
+    {
+      "name": "diff",
+      "path": "",
+      "short_description": "diff — see gtfobins.github.io",
+      "capability_tags": [
+        "collection"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "file-read"
+      ],
+      "intent": "read"
+    },
+    {
+      "name": "dig",
+      "path": "",
+      "short_description": "dig — see gtfobins.github.io",
+      "capability_tags": [
+        "collection"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "file-read"
+      ],
+      "intent": "read"
+    },
+    {
+      "name": "distcc",
+      "path": "",
+      "short_description": "distcc — see gtfobins.github.io",
+      "capability_tags": [
+        "execution"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "shell"
+      ],
+      "intent": "spawn_shell"
+    },
+    {
+      "name": "dmesg",
+      "path": "",
+      "short_description": "dmesg — see gtfobins.github.io",
+      "capability_tags": [
+        "collection"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "file-read"
+      ],
+      "intent": "read"
+    },
+    {
+      "name": "dmidecode",
+      "path": "",
+      "short_description": "dmidecode — see gtfobins.github.io",
+      "capability_tags": [
+        "persistence"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "file-write"
+      ],
+      "intent": "modify"
+    },
+    {
+      "name": "dmsetup",
+      "path": "",
+      "short_description": "dmsetup — see gtfobins.github.io",
+      "capability_tags": [
+        "execution"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "shell"
+      ],
+      "intent": "spawn_shell"
+    },
+    {
+      "name": "dnf",
+      "path": "",
+      "short_description": "dnf — see gtfobins.github.io",
+      "capability_tags": [
+        "execution"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "command"
+      ],
+      "intent": "spawn_shell"
+    },
+    {
+      "name": "dnsmasq",
+      "path": "",
+      "short_description": "dnsmasq — see gtfobins.github.io",
+      "capability_tags": [
+        "execution"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "command"
+      ],
+      "intent": "spawn_shell"
+    },
+    {
+      "name": "doas",
+      "path": "",
+      "short_description": "doas — see gtfobins.github.io",
+      "capability_tags": [
+        "execution"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "shell"
+      ],
+      "intent": "spawn_shell"
+    },
+    {
+      "name": "docker",
+      "path": "",
+      "short_description": "docker — see gtfobins.github.io",
+      "capability_tags": [
+        "collection",
+        "execution",
+        "persistence"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "file-read",
+        "file-write",
+        "shell"
+      ],
+      "intent": "spawn_shell"
+    },
+    {
+      "name": "dos2unix",
+      "path": "",
+      "short_description": "dos2unix — see gtfobins.github.io",
+      "capability_tags": [
+        "collection",
+        "persistence"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "file-read",
+        "file-write"
+      ],
+      "intent": "modify"
+    },
+    {
+      "name": "dosbox",
+      "path": "",
+      "short_description": "dosbox — see gtfobins.github.io",
+      "capability_tags": [
+        "collection",
+        "persistence"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "file-read",
+        "file-write"
+      ],
+      "intent": "modify"
+    },
+    {
+      "name": "dotnet",
+      "path": "",
+      "short_description": "dotnet — see gtfobins.github.io",
+      "capability_tags": [
+        "collection",
+        "execution"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "file-read",
+        "shell"
+      ],
+      "intent": "spawn_shell"
+    },
+    {
+      "name": "dpkg",
+      "path": "",
+      "short_description": "dpkg — see gtfobins.github.io",
+      "capability_tags": [
+        "execution"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "shell"
+      ],
+      "intent": "spawn_shell"
+    },
+    {
+      "name": "dvips",
+      "path": "",
+      "short_description": "dvips — see gtfobins.github.io",
+      "capability_tags": [
+        "execution"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "shell"
+      ],
+      "intent": "spawn_shell"
+    },
+    {
+      "name": "easyrsa",
+      "path": "",
+      "short_description": "easyrsa — see gtfobins.github.io",
+      "capability_tags": [
+        "execution"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "shell"
+      ],
+      "intent": "spawn_shell"
+    },
+    {
+      "name": "ed",
+      "path": "",
+      "short_description": "ed — see gtfobins.github.io",
+      "capability_tags": [
+        "collection",
+        "execution",
+        "persistence"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "file-read",
+        "file-write",
+        "shell"
+      ],
+      "intent": "spawn_shell"
+    },
+    {
+      "name": "efax",
+      "path": "",
+      "short_description": "efax — see gtfobins.github.io",
+      "capability_tags": [
+        "collection"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "file-read"
+      ],
+      "intent": "read"
+    },
+    {
+      "name": "egrep",
+      "path": "",
+      "short_description": "egrep — see gtfobins.github.io",
+      "capability_tags": [
+        "collection"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "file-read"
+      ],
+      "intent": "read"
+    },
+    {
+      "name": "elvish",
+      "path": "",
+      "short_description": "elvish — see gtfobins.github.io",
+      "capability_tags": [
+        "collection",
+        "execution",
+        "persistence"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "file-read",
+        "file-write",
+        "shell"
+      ],
+      "intent": "spawn_shell"
+    },
+    {
+      "name": "emacs",
+      "path": "",
+      "short_description": "emacs — see gtfobins.github.io",
+      "capability_tags": [
+        "collection",
+        "execution",
+        "persistence"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "file-read",
+        "file-write",
+        "shell"
+      ],
+      "intent": "spawn_shell"
+    },
+    {
+      "name": "enscript",
+      "path": "",
+      "short_description": "enscript — see gtfobins.github.io",
+      "capability_tags": [
+        "execution"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "shell"
+      ],
+      "intent": "spawn_shell"
+    },
+    {
+      "name": "env",
+      "path": "",
+      "short_description": "env — see gtfobins.github.io",
+      "capability_tags": [
+        "execution"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "shell"
+      ],
+      "intent": "spawn_shell"
+    },
+    {
+      "name": "eqn",
+      "path": "",
+      "short_description": "eqn — see gtfobins.github.io",
+      "capability_tags": [
+        "collection"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "file-read"
+      ],
+      "intent": "read"
+    },
+    {
+      "name": "espeak",
+      "path": "",
+      "short_description": "espeak — see gtfobins.github.io",
+      "capability_tags": [
+        "collection"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "file-read"
+      ],
+      "intent": "read"
+    },
+    {
+      "name": "ex",
+      "path": "",
+      "short_description": "ex — see gtfobins.github.io",
+      "capability_tags": [
+        "execution"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "shell"
+      ],
+      "intent": "spawn_shell"
+    },
+    {
+      "name": "exiftool",
+      "path": "",
+      "short_description": "exiftool — see gtfobins.github.io",
+      "capability_tags": [
+        "collection",
+        "persistence"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "file-read",
+        "file-write"
+      ],
+      "intent": "modify"
+    },
+    {
+      "name": "expand",
+      "path": "",
+      "short_description": "expand — see gtfobins.github.io",
+      "capability_tags": [
+        "collection"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "file-read"
+      ],
+      "intent": "read"
+    },
+    {
+      "name": "expect",
+      "path": "",
+      "short_description": "expect — see gtfobins.github.io",
+      "capability_tags": [
+        "collection",
+        "execution"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "file-read",
+        "shell"
+      ],
+      "intent": "spawn_shell"
+    },
+    {
+      "name": "fail2ban-client",
+      "path": "",
+      "short_description": "fail2ban-client — see gtfobins.github.io",
+      "capability_tags": [
+        "execution"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "command"
+      ],
+      "intent": "spawn_shell"
+    },
+    {
+      "name": "fastfetch",
+      "path": "",
+      "short_description": "fastfetch — see gtfobins.github.io",
+      "capability_tags": [
+        "collection",
+        "execution"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "command",
+        "file-read",
+        "shell"
+      ],
+      "intent": "spawn_shell"
+    },
+    {
+      "name": "ffmpeg",
+      "path": "",
+      "short_description": "ffmpeg — see gtfobins.github.io",
+      "capability_tags": [
+        "execution"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "library-load"
+      ],
+      "intent": "spawn_shell"
+    },
+    {
+      "name": "fgrep",
+      "path": "",
+      "short_description": "fgrep — see gtfobins.github.io",
+      "capability_tags": [
+        "collection"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "file-read"
+      ],
+      "intent": "read"
+    },
+    {
+      "name": "file",
+      "path": "",
+      "short_description": "file — see gtfobins.github.io",
+      "capability_tags": [
+        "collection"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "file-read"
+      ],
+      "intent": "read"
+    },
+    {
+      "name": "find",
+      "path": "",
+      "short_description": "find — see gtfobins.github.io",
+      "capability_tags": [
+        "collection",
+        "execution",
+        "persistence"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "file-read",
+        "file-write",
+        "shell"
+      ],
+      "intent": "spawn_shell"
+    },
+    {
+      "name": "firejail",
+      "path": "",
+      "short_description": "firejail — see gtfobins.github.io",
+      "capability_tags": [
+        "execution"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "shell"
+      ],
+      "intent": "spawn_shell"
+    },
+    {
+      "name": "fish",
+      "path": "",
+      "short_description": "fish — see gtfobins.github.io",
+      "capability_tags": [
+        "execution"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "shell"
+      ],
+      "intent": "spawn_shell"
+    },
+    {
+      "name": "flock",
+      "path": "",
+      "short_description": "flock — see gtfobins.github.io",
+      "capability_tags": [
+        "execution"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "shell"
+      ],
+      "intent": "spawn_shell"
+    },
+    {
+      "name": "fmt",
+      "path": "",
+      "short_description": "fmt — see gtfobins.github.io",
+      "capability_tags": [
+        "collection"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "file-read"
+      ],
+      "intent": "read"
+    },
+    {
+      "name": "fold",
+      "path": "",
+      "short_description": "fold — see gtfobins.github.io",
+      "capability_tags": [
+        "collection"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "file-read"
+      ],
+      "intent": "read"
+    },
+    {
+      "name": "forge",
+      "path": "",
+      "short_description": "forge — see gtfobins.github.io",
+      "capability_tags": [
+        "execution"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "shell"
+      ],
+      "intent": "spawn_shell"
+    },
+    {
+      "name": "fping",
+      "path": "",
+      "short_description": "fping — see gtfobins.github.io",
+      "capability_tags": [
+        "collection"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "file-read"
+      ],
+      "intent": "read"
+    },
+    {
+      "name": "ftp",
+      "path": "",
+      "short_description": "ftp — see gtfobins.github.io",
+      "capability_tags": [
+        "execution"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "shell"
+      ],
+      "intent": "spawn_shell"
+    },
+    {
+      "name": "fzf",
+      "path": "",
+      "short_description": "fzf — see gtfobins.github.io",
+      "capability_tags": [
+        "execution"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "command",
+        "shell"
+      ],
+      "intent": "spawn_shell"
+    },
+    {
+      "name": "gawk",
+      "path": "",
+      "short_description": "gawk — see gtfobins.github.io",
+      "capability_tags": [
+        "collection",
+        "command_and_control",
+        "execution",
+        "persistence"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "bind-shell",
+        "file-read",
+        "file-write",
+        "reverse-shell",
+        "shell"
+      ],
+      "intent": "exfiltrate"
+    },
+    {
+      "name": "gcc",
+      "path": "",
+      "short_description": "gcc — see gtfobins.github.io",
+      "capability_tags": [
+        "collection",
+        "execution",
+        "persistence"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "file-read",
+        "file-write",
+        "shell"
+      ],
+      "intent": "spawn_shell"
+    },
+    {
+      "name": "gcore",
+      "path": "",
+      "short_description": "gcore — see gtfobins.github.io",
+      "capability_tags": [
+        "collection"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "file-read"
+      ],
+      "intent": "read"
+    },
+    {
+      "name": "gdb",
+      "path": "",
+      "short_description": "gdb — see gtfobins.github.io",
+      "capability_tags": [
+        "execution",
+        "persistence"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "file-write",
+        "shell"
+      ],
+      "intent": "spawn_shell"
+    },
+    {
+      "name": "gem",
+      "path": "",
+      "short_description": "gem — see gtfobins.github.io",
+      "capability_tags": [
+        "execution"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "shell"
+      ],
+      "intent": "spawn_shell"
+    },
+    {
+      "name": "genie",
+      "path": "",
+      "short_description": "genie — see gtfobins.github.io",
+      "capability_tags": [
+        "execution"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "shell"
+      ],
+      "intent": "spawn_shell"
+    },
+    {
+      "name": "genisoimage",
+      "path": "",
+      "short_description": "genisoimage — see gtfobins.github.io",
+      "capability_tags": [
+        "collection"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "file-read"
+      ],
+      "intent": "read"
+    },
+    {
+      "name": "ghc",
+      "path": "",
+      "short_description": "ghc — see gtfobins.github.io",
+      "capability_tags": [
+        "execution"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "shell"
+      ],
+      "intent": "spawn_shell"
+    },
+    {
+      "name": "ghci",
+      "path": "",
+      "short_description": "ghci — see gtfobins.github.io",
+      "capability_tags": [
+        "execution"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "shell"
+      ],
+      "intent": "spawn_shell"
+    },
+    {
+      "name": "ginsh",
+      "path": "",
+      "short_description": "ginsh — see gtfobins.github.io",
+      "capability_tags": [
+        "execution"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "shell"
+      ],
+      "intent": "spawn_shell"
+    },
+    {
+      "name": "git",
+      "path": "",
+      "short_description": "git — see gtfobins.github.io",
+      "capability_tags": [
+        "collection",
+        "execution",
+        "persistence"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "file-read",
+        "file-write",
+        "shell"
+      ],
+      "intent": "spawn_shell"
+    },
+    {
+      "name": "gnuplot",
+      "path": "",
+      "short_description": "gnuplot — see gtfobins.github.io",
+      "capability_tags": [
+        "execution"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "shell"
+      ],
+      "intent": "spawn_shell"
+    },
+    {
+      "name": "go",
+      "path": "",
+      "short_description": "go — see gtfobins.github.io",
+      "capability_tags": [
+        "collection",
+        "command_and_control",
+        "execution",
+        "persistence"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "bind-shell",
+        "file-read",
+        "file-write",
+        "reverse-shell",
+        "shell"
+      ],
+      "intent": "exfiltrate"
+    },
+    {
+      "name": "grc",
+      "path": "",
+      "short_description": "grc — see gtfobins.github.io",
+      "capability_tags": [
+        "execution"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "shell"
+      ],
+      "intent": "spawn_shell"
+    },
+    {
+      "name": "grep",
+      "path": "",
+      "short_description": "grep — see gtfobins.github.io",
+      "capability_tags": [
+        "collection"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "file-read"
+      ],
+      "intent": "read"
+    },
+    {
+      "name": "gtester",
+      "path": "",
+      "short_description": "gtester — see gtfobins.github.io",
+      "capability_tags": [
+        "execution",
+        "persistence"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "file-write",
+        "shell"
+      ],
+      "intent": "spawn_shell"
+    },
+    {
+      "name": "guile",
+      "path": "",
+      "short_description": "guile — see gtfobins.github.io",
+      "capability_tags": [
+        "execution"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "shell"
+      ],
+      "intent": "spawn_shell"
+    },
+    {
+      "name": "gzip",
+      "path": "",
+      "short_description": "gzip — see gtfobins.github.io",
+      "capability_tags": [
+        "collection"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "file-read"
+      ],
+      "intent": "read"
+    },
+    {
+      "name": "hashcat",
+      "path": "",
+      "short_description": "hashcat — see gtfobins.github.io",
+      "capability_tags": [
+        "persistence"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "file-write"
+      ],
+      "intent": "modify"
+    },
+    {
+      "name": "head",
+      "path": "",
+      "short_description": "head — see gtfobins.github.io",
+      "capability_tags": [
+        "collection"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "file-read"
+      ],
+      "intent": "read"
+    },
+    {
+      "name": "hexdump",
+      "path": "",
+      "short_description": "hexdump — see gtfobins.github.io",
+      "capability_tags": [
+        "collection"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "file-read"
+      ],
+      "intent": "read"
+    },
+    {
+      "name": "hg",
+      "path": "",
+      "short_description": "hg — see gtfobins.github.io",
+      "capability_tags": [
+        "execution"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "shell"
+      ],
+      "intent": "spawn_shell"
+    },
+    {
+      "name": "highlight",
+      "path": "",
+      "short_description": "highlight — see gtfobins.github.io",
+      "capability_tags": [
+        "collection"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "file-read"
+      ],
+      "intent": "read"
+    },
+    {
+      "name": "hping3",
+      "path": "",
+      "short_description": "hping3 — see gtfobins.github.io",
+      "capability_tags": [
+        "execution"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "shell"
+      ],
+      "intent": "spawn_shell"
+    },
+    {
+      "name": "iconv",
+      "path": "",
+      "short_description": "iconv — see gtfobins.github.io",
+      "capability_tags": [
+        "collection",
+        "persistence"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "file-read",
+        "file-write"
+      ],
+      "intent": "modify"
+    },
+    {
+      "name": "iftop",
+      "path": "",
+      "short_description": "iftop — see gtfobins.github.io",
+      "capability_tags": [
+        "execution"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "shell"
+      ],
+      "intent": "spawn_shell"
+    },
+    {
+      "name": "ionice",
+      "path": "",
+      "short_description": "ionice — see gtfobins.github.io",
+      "capability_tags": [
+        "execution"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "shell"
+      ],
+      "intent": "spawn_shell"
+    },
+    {
+      "name": "ip",
+      "path": "",
+      "short_description": "ip — see gtfobins.github.io",
+      "capability_tags": [
+        "collection",
+        "execution"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "file-read",
+        "shell"
+      ],
+      "intent": "spawn_shell"
+    },
+    {
+      "name": "iptables-save",
+      "path": "",
+      "short_description": "iptables-save — see gtfobins.github.io",
+      "capability_tags": [
+        "persistence"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "file-write"
+      ],
+      "intent": "modify"
+    },
+    {
+      "name": "ispell",
+      "path": "",
+      "short_description": "ispell — see gtfobins.github.io",
+      "capability_tags": [
+        "execution"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "shell"
+      ],
+      "intent": "spawn_shell"
+    },
+    {
+      "name": "java",
+      "path": "",
+      "short_description": "java — see gtfobins.github.io",
+      "capability_tags": [
+        "execution"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "shell"
+      ],
+      "intent": "spawn_shell"
+    },
+    {
+      "name": "jjs",
+      "path": "",
+      "short_description": "jjs — see gtfobins.github.io",
+      "capability_tags": [
+        "collection",
+        "command_and_control",
+        "execution",
+        "persistence"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "file-read",
+        "file-write",
+        "reverse-shell",
+        "shell"
+      ],
+      "intent": "exfiltrate"
+    },
+    {
+      "name": "joe",
+      "path": "",
+      "short_description": "joe — see gtfobins.github.io",
+      "capability_tags": [
+        "execution"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "shell"
+      ],
+      "intent": "spawn_shell"
+    },
+    {
+      "name": "join",
+      "path": "",
+      "short_description": "join — see gtfobins.github.io",
+      "capability_tags": [
+        "collection"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "file-read"
+      ],
+      "intent": "read"
+    },
+    {
+      "name": "jq",
+      "path": "",
+      "short_description": "jq — see gtfobins.github.io",
+      "capability_tags": [
+        "collection"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "file-read"
+      ],
+      "intent": "read"
+    },
+    {
+      "name": "jrunscript",
+      "path": "",
+      "short_description": "jrunscript — see gtfobins.github.io",
+      "capability_tags": [
+        "collection",
+        "command_and_control",
+        "execution",
+        "persistence"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "file-read",
+        "file-write",
+        "reverse-shell",
+        "shell"
+      ],
+      "intent": "exfiltrate"
+    },
+    {
+      "name": "jshell",
+      "path": "",
+      "short_description": "jshell — see gtfobins.github.io",
+      "capability_tags": [
+        "collection",
+        "execution",
+        "persistence"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "file-read",
+        "file-write",
+        "shell"
+      ],
+      "intent": "spawn_shell"
+    },
+    {
+      "name": "jtag",
+      "path": "",
+      "short_description": "jtag — see gtfobins.github.io",
+      "capability_tags": [
+        "execution"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "shell"
+      ],
+      "intent": "spawn_shell"
+    },
+    {
+      "name": "julia",
+      "path": "",
+      "short_description": "julia — see gtfobins.github.io",
+      "capability_tags": [
+        "collection",
+        "command_and_control",
+        "execution",
+        "persistence"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "file-read",
+        "file-write",
+        "reverse-shell",
+        "shell"
+      ],
+      "intent": "exfiltrate"
+    },
+    {
+      "name": "ksshell",
+      "path": "",
+      "short_description": "ksshell — see gtfobins.github.io",
+      "capability_tags": [
+        "collection"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "file-read"
+      ],
+      "intent": "read"
+    },
+    {
+      "name": "ksu",
+      "path": "",
+      "short_description": "ksu — see gtfobins.github.io",
+      "capability_tags": [
+        "execution"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "shell"
+      ],
+      "intent": "spawn_shell"
+    },
+    {
+      "name": "kubectl",
+      "path": "",
+      "short_description": "kubectl — see gtfobins.github.io",
+      "capability_tags": [
+        "execution"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "shell"
+      ],
+      "intent": "spawn_shell"
+    },
+    {
+      "name": "last",
+      "path": "",
+      "short_description": "last — see gtfobins.github.io",
+      "capability_tags": [
+        "collection"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "file-read"
+      ],
+      "intent": "read"
+    },
+    {
+      "name": "latex",
+      "path": "",
+      "short_description": "latex — see gtfobins.github.io",
+      "capability_tags": [
+        "collection",
+        "execution",
+        "persistence"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "file-read",
+        "file-write",
+        "shell"
+      ],
+      "intent": "spawn_shell"
+    },
+    {
+      "name": "latexmk",
+      "path": "",
+      "short_description": "latexmk — see gtfobins.github.io",
+      "capability_tags": [
+        "collection",
+        "execution"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "file-read",
+        "shell"
+      ],
+      "intent": "spawn_shell"
+    },
+    {
+      "name": "ld",
+      "path": "",
+      "short_description": "ld — see gtfobins.github.io",
+      "capability_tags": [
+        "execution"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "shell"
+      ],
+      "intent": "spawn_shell"
+    },
+    {
+      "name": "ldconfig",
+      "path": "",
+      "short_description": "ldconfig — see gtfobins.github.io",
+      "capability_tags": [
+        "execution"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "library-load"
+      ],
+      "intent": "spawn_shell"
+    },
+    {
+      "name": "less",
+      "path": "",
+      "short_description": "less — see gtfobins.github.io",
+      "capability_tags": [
+        "collection",
+        "execution",
+        "persistence"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "command",
+        "file-read",
+        "file-write",
+        "shell"
+      ],
+      "intent": "spawn_shell"
+    },
+    {
+      "name": "lftp",
+      "path": "",
+      "short_description": "lftp — see gtfobins.github.io",
+      "capability_tags": [
+        "execution"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "shell"
+      ],
+      "intent": "spawn_shell"
+    },
+    {
+      "name": "links",
+      "path": "",
+      "short_description": "links — see gtfobins.github.io",
+      "capability_tags": [
+        "collection"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "file-read"
+      ],
+      "intent": "read"
+    },
+    {
+      "name": "loginctl",
+      "path": "",
+      "short_description": "loginctl — see gtfobins.github.io",
+      "capability_tags": [
+        "execution"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "shell"
+      ],
+      "intent": "spawn_shell"
+    },
+    {
+      "name": "logrotate",
+      "path": "",
+      "short_description": "logrotate — see gtfobins.github.io",
+      "capability_tags": [
+        "collection",
+        "execution",
+        "persistence"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "file-read",
+        "file-write",
+        "shell"
+      ],
+      "intent": "spawn_shell"
+    },
+    {
+      "name": "logsave",
+      "path": "",
+      "short_description": "logsave — see gtfobins.github.io",
+      "capability_tags": [
+        "execution"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "shell"
+      ],
+      "intent": "spawn_shell"
+    },
+    {
+      "name": "look",
+      "path": "",
+      "short_description": "look — see gtfobins.github.io",
+      "capability_tags": [
+        "collection"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "file-read"
+      ],
+      "intent": "read"
+    },
+    {
+      "name": "ltrace",
+      "path": "",
+      "short_description": "ltrace — see gtfobins.github.io",
+      "capability_tags": [
+        "collection",
+        "execution",
+        "persistence"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "file-read",
+        "file-write",
+        "shell"
+      ],
+      "intent": "spawn_shell"
+    },
+    {
+      "name": "lua",
+      "path": "",
+      "short_description": "lua — see gtfobins.github.io",
+      "capability_tags": [
+        "collection",
+        "command_and_control",
+        "execution",
+        "persistence"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "bind-shell",
+        "file-read",
+        "file-write",
+        "reverse-shell",
+        "shell"
+      ],
+      "intent": "exfiltrate"
+    },
+    {
+      "name": "lwp-download",
+      "path": "",
+      "short_description": "lwp-download — see gtfobins.github.io",
+      "capability_tags": [
+        "collection",
+        "persistence"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "file-read",
+        "file-write"
+      ],
+      "intent": "modify"
+    },
+    {
+      "name": "lwp-request",
+      "path": "",
+      "short_description": "lwp-request — see gtfobins.github.io",
+      "capability_tags": [
+        "collection"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "file-read"
+      ],
+      "intent": "read"
+    },
+    {
+      "name": "lxd",
+      "path": "",
+      "short_description": "lxd — see gtfobins.github.io",
+      "capability_tags": [
+        "execution"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "shell"
+      ],
+      "intent": "spawn_shell"
+    },
+    {
+      "name": "m4",
+      "path": "",
+      "short_description": "m4 — see gtfobins.github.io",
+      "capability_tags": [
+        "collection",
+        "execution"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "command",
+        "file-read",
+        "shell"
+      ],
+      "intent": "spawn_shell"
+    },
+    {
+      "name": "mail",
+      "path": "",
+      "short_description": "mail — see gtfobins.github.io",
+      "capability_tags": [
+        "execution"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "shell"
+      ],
+      "intent": "spawn_shell"
+    },
+    {
+      "name": "make",
+      "path": "",
+      "short_description": "make — see gtfobins.github.io",
+      "capability_tags": [
+        "collection",
+        "execution",
+        "persistence"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "file-read",
+        "file-write",
+        "shell"
+      ],
+      "intent": "spawn_shell"
+    },
+    {
+      "name": "man",
+      "path": "",
+      "short_description": "man — see gtfobins.github.io",
+      "capability_tags": [
+        "collection",
+        "execution"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "file-read",
+        "shell"
+      ],
+      "intent": "spawn_shell"
+    },
+    {
+      "name": "mawk",
+      "path": "",
+      "short_description": "mawk — see gtfobins.github.io",
+      "capability_tags": [
+        "collection",
+        "execution",
+        "persistence"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "file-read",
+        "file-write",
+        "shell"
+      ],
+      "intent": "spawn_shell"
+    },
+    {
+      "name": "minicom",
+      "path": "",
+      "short_description": "minicom — see gtfobins.github.io",
+      "capability_tags": [
+        "execution"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "shell"
+      ],
+      "intent": "spawn_shell"
+    },
+    {
+      "name": "more",
+      "path": "",
+      "short_description": "more — see gtfobins.github.io",
+      "capability_tags": [
+        "collection",
+        "execution"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "file-read",
+        "shell"
+      ],
+      "intent": "spawn_shell"
+    },
+    {
+      "name": "mosh-server",
+      "path": "",
+      "short_description": "mosh-server — see gtfobins.github.io",
+      "capability_tags": [
+        "execution"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "shell"
+      ],
+      "intent": "spawn_shell"
+    },
+    {
+      "name": "mosquitto",
+      "path": "",
+      "short_description": "mosquitto — see gtfobins.github.io",
+      "capability_tags": [
+        "collection"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "file-read"
+      ],
+      "intent": "read"
+    },
+    {
+      "name": "msgattrib",
+      "path": "",
+      "short_description": "msgattrib — see gtfobins.github.io",
+      "capability_tags": [
+        "collection"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "file-read"
+      ],
+      "intent": "read"
+    },
+    {
+      "name": "msgcat",
+      "path": "",
+      "short_description": "msgcat — see gtfobins.github.io",
+      "capability_tags": [
+        "collection"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "file-read"
+      ],
+      "intent": "read"
+    },
+    {
+      "name": "msgconv",
+      "path": "",
+      "short_description": "msgconv — see gtfobins.github.io",
+      "capability_tags": [
+        "collection"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "file-read"
+      ],
+      "intent": "read"
+    },
+    {
+      "name": "msgfilter",
+      "path": "",
+      "short_description": "msgfilter — see gtfobins.github.io",
+      "capability_tags": [
+        "collection",
+        "execution"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "file-read",
+        "shell"
+      ],
+      "intent": "spawn_shell"
+    },
+    {
+      "name": "msgmerge",
+      "path": "",
+      "short_description": "msgmerge — see gtfobins.github.io",
+      "capability_tags": [
+        "collection"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "file-read"
+      ],
+      "intent": "read"
+    },
+    {
+      "name": "msguniq",
+      "path": "",
+      "short_description": "msguniq — see gtfobins.github.io",
+      "capability_tags": [
+        "collection"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "file-read"
+      ],
+      "intent": "read"
+    },
+    {
+      "name": "mtr",
+      "path": "",
+      "short_description": "mtr — see gtfobins.github.io",
+      "capability_tags": [
+        "collection"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "file-read"
+      ],
+      "intent": "read"
+    },
+    {
+      "name": "multitime",
+      "path": "",
+      "short_description": "multitime — see gtfobins.github.io",
+      "capability_tags": [
+        "execution"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "shell"
+      ],
+      "intent": "spawn_shell"
+    },
+    {
+      "name": "mutt",
+      "path": "",
+      "short_description": "mutt — see gtfobins.github.io",
+      "capability_tags": [
+        "collection"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "file-read"
+      ],
+      "intent": "read"
+    },
+    {
+      "name": "mv",
+      "path": "",
+      "short_description": "mv — see gtfobins.github.io",
+      "capability_tags": [
+        "persistence"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "file-write"
+      ],
+      "intent": "modify"
+    },
+    {
+      "name": "mypy",
+      "path": "",
+      "short_description": "mypy — see gtfobins.github.io",
+      "capability_tags": [
+        "collection",
+        "persistence"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "file-read",
+        "file-write"
+      ],
+      "intent": "modify"
+    },
+    {
+      "name": "mysql",
+      "path": "",
+      "short_description": "mysql — see gtfobins.github.io",
+      "capability_tags": [
+        "execution"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "library-load",
+        "shell"
+      ],
+      "intent": "spawn_shell"
+    },
+    {
+      "name": "nano",
+      "path": "",
+      "short_description": "nano — see gtfobins.github.io",
+      "capability_tags": [
+        "collection",
+        "execution",
+        "persistence"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "file-read",
+        "file-write",
+        "shell"
+      ],
+      "intent": "spawn_shell"
+    },
+    {
+      "name": "nasm",
+      "path": "",
+      "short_description": "nasm — see gtfobins.github.io",
+      "capability_tags": [
+        "collection"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "file-read"
+      ],
+      "intent": "read"
+    },
+    {
+      "name": "nc",
+      "path": "",
+      "short_description": "nc — see gtfobins.github.io",
+      "capability_tags": [
+        "command_and_control"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "bind-shell",
+        "reverse-shell"
+      ],
+      "intent": "exfiltrate"
+    },
+    {
+      "name": "ncdu",
+      "path": "",
+      "short_description": "ncdu — see gtfobins.github.io",
+      "capability_tags": [
+        "execution"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "shell"
+      ],
+      "intent": "spawn_shell"
+    },
+    {
+      "name": "ncftp",
+      "path": "",
+      "short_description": "ncftp — see gtfobins.github.io",
+      "capability_tags": [
+        "execution"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "shell"
+      ],
+      "intent": "spawn_shell"
+    },
+    {
+      "name": "neofetch",
+      "path": "",
+      "short_description": "neofetch — see gtfobins.github.io",
+      "capability_tags": [
+        "collection",
+        "execution"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "file-read",
+        "shell"
+      ],
+      "intent": "spawn_shell"
+    },
+    {
+      "name": "nft",
+      "path": "",
+      "short_description": "nft — see gtfobins.github.io",
+      "capability_tags": [
+        "collection"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "file-read"
+      ],
+      "intent": "read"
+    },
+    {
+      "name": "nginx",
+      "path": "",
+      "short_description": "nginx — see gtfobins.github.io",
+      "capability_tags": [
+        "execution"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "library-load"
+      ],
+      "intent": "spawn_shell"
+    },
+    {
+      "name": "nice",
+      "path": "",
+      "short_description": "nice — see gtfobins.github.io",
+      "capability_tags": [
+        "execution"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "shell"
+      ],
+      "intent": "spawn_shell"
+    },
+    {
+      "name": "nl",
+      "path": "",
+      "short_description": "nl — see gtfobins.github.io",
+      "capability_tags": [
+        "collection"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "file-read"
+      ],
+      "intent": "read"
+    },
+    {
+      "name": "nm",
+      "path": "",
+      "short_description": "nm — see gtfobins.github.io",
+      "capability_tags": [
+        "collection"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "file-read"
+      ],
+      "intent": "read"
+    },
+    {
+      "name": "nmap",
+      "path": "",
+      "short_description": "nmap — see gtfobins.github.io",
+      "capability_tags": [
+        "collection",
+        "execution",
+        "persistence"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "file-read",
+        "file-write",
+        "shell"
+      ],
+      "intent": "spawn_shell"
+    },
+    {
+      "name": "node",
+      "path": "",
+      "short_description": "node — see gtfobins.github.io",
+      "capability_tags": [
+        "collection",
+        "command_and_control",
+        "execution",
+        "persistence"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "bind-shell",
+        "file-read",
+        "file-write",
+        "reverse-shell",
+        "shell"
+      ],
+      "intent": "exfiltrate"
+    },
+    {
+      "name": "nohup",
+      "path": "",
+      "short_description": "nohup — see gtfobins.github.io",
+      "capability_tags": [
+        "execution"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "command",
+        "shell"
+      ],
+      "intent": "spawn_shell"
+    },
+    {
+      "name": "npm",
+      "path": "",
+      "short_description": "npm — see gtfobins.github.io",
+      "capability_tags": [
+        "execution"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "shell"
+      ],
+      "intent": "spawn_shell"
+    },
+    {
+      "name": "nroff",
+      "path": "",
+      "short_description": "nroff — see gtfobins.github.io",
+      "capability_tags": [
+        "collection",
+        "execution"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "file-read",
+        "shell"
+      ],
+      "intent": "spawn_shell"
+    },
+    {
+      "name": "nsenter",
+      "path": "",
+      "short_description": "nsenter — see gtfobins.github.io",
+      "capability_tags": [
+        "execution"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "shell"
+      ],
+      "intent": "spawn_shell"
+    },
+    {
+      "name": "ntpdate",
+      "path": "",
+      "short_description": "ntpdate — see gtfobins.github.io",
+      "capability_tags": [
+        "collection"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "file-read"
+      ],
+      "intent": "read"
+    },
+    {
+      "name": "octave",
+      "path": "",
+      "short_description": "octave — see gtfobins.github.io",
+      "capability_tags": [
+        "collection",
+        "execution",
+        "persistence"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "file-read",
+        "file-write",
+        "shell"
+      ],
+      "intent": "spawn_shell"
+    },
+    {
+      "name": "od",
+      "path": "",
+      "short_description": "od — see gtfobins.github.io",
+      "capability_tags": [
+        "collection"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "file-read"
+      ],
+      "intent": "read"
+    },
+    {
+      "name": "opencode",
+      "path": "",
+      "short_description": "opencode — see gtfobins.github.io",
+      "capability_tags": [
+        "execution"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "command"
+      ],
+      "intent": "spawn_shell"
+    },
+    {
+      "name": "openssl",
+      "path": "",
+      "short_description": "openssl — see gtfobins.github.io",
+      "capability_tags": [
+        "collection",
+        "command_and_control",
+        "execution",
+        "persistence"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "file-read",
+        "file-write",
+        "library-load",
+        "reverse-shell"
+      ],
+      "intent": "exfiltrate"
+    },
+    {
+      "name": "openvpn",
+      "path": "",
+      "short_description": "openvpn — see gtfobins.github.io",
+      "capability_tags": [
+        "collection",
+        "execution"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "file-read",
+        "shell"
+      ],
+      "intent": "spawn_shell"
+    },
+    {
+      "name": "openvt",
+      "path": "",
+      "short_description": "openvt — see gtfobins.github.io",
+      "capability_tags": [
+        "execution"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "command"
+      ],
+      "intent": "spawn_shell"
+    },
+    {
+      "name": "opkg",
+      "path": "",
+      "short_description": "opkg — see gtfobins.github.io",
+      "capability_tags": [
+        "execution"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "shell"
+      ],
+      "intent": "spawn_shell"
+    },
+    {
+      "name": "pandoc",
+      "path": "",
+      "short_description": "pandoc — see gtfobins.github.io",
+      "capability_tags": [
+        "collection",
+        "persistence"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "file-read",
+        "file-write"
+      ],
+      "intent": "modify"
+    },
+    {
+      "name": "paste",
+      "path": "",
+      "short_description": "paste — see gtfobins.github.io",
+      "capability_tags": [
+        "collection"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "file-read"
+      ],
+      "intent": "read"
+    },
+    {
+      "name": "pax",
+      "path": "",
+      "short_description": "pax — see gtfobins.github.io",
+      "capability_tags": [
+        "collection"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "file-read"
+      ],
+      "intent": "read"
+    },
+    {
+      "name": "pdflatex",
+      "path": "",
+      "short_description": "pdflatex — see gtfobins.github.io",
+      "capability_tags": [
+        "collection",
+        "execution",
+        "persistence"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "file-read",
+        "file-write",
+        "shell"
+      ],
+      "intent": "spawn_shell"
+    },
+    {
+      "name": "pdftex",
+      "path": "",
+      "short_description": "pdftex — see gtfobins.github.io",
+      "capability_tags": [
+        "execution"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "shell"
+      ],
+      "intent": "spawn_shell"
+    },
+    {
+      "name": "perf",
+      "path": "",
+      "short_description": "perf — see gtfobins.github.io",
+      "capability_tags": [
+        "execution"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "shell"
+      ],
+      "intent": "spawn_shell"
+    },
+    {
+      "name": "perl",
+      "path": "",
+      "short_description": "perl — see gtfobins.github.io",
+      "capability_tags": [
+        "collection",
+        "command_and_control",
+        "execution"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "file-read",
+        "reverse-shell",
+        "shell"
+      ],
+      "intent": "exfiltrate"
+    },
+    {
+      "name": "perlbug",
+      "path": "",
+      "short_description": "perlbug — see gtfobins.github.io",
+      "capability_tags": [
+        "execution"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "shell"
+      ],
+      "intent": "spawn_shell"
+    },
+    {
+      "name": "pexec",
+      "path": "",
+      "short_description": "pexec — see gtfobins.github.io",
+      "capability_tags": [
+        "execution"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "shell"
+      ],
+      "intent": "spawn_shell"
+    },
+    {
+      "name": "pg",
+      "path": "",
+      "short_description": "pg — see gtfobins.github.io",
+      "capability_tags": [
+        "collection",
+        "execution"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "file-read",
+        "shell"
+      ],
+      "intent": "spawn_shell"
+    },
+    {
+      "name": "php",
+      "path": "",
+      "short_description": "php — see gtfobins.github.io",
+      "capability_tags": [
+        "collection",
+        "command_and_control",
+        "execution",
+        "persistence"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "command",
+        "file-read",
+        "file-write",
+        "reverse-shell",
+        "shell"
+      ],
+      "intent": "exfiltrate"
+    },
+    {
+      "name": "pic",
+      "path": "",
+      "short_description": "pic — see gtfobins.github.io",
+      "capability_tags": [
+        "collection",
+        "execution"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "file-read",
+        "shell"
+      ],
+      "intent": "spawn_shell"
+    },
+    {
+      "name": "pidstat",
+      "path": "",
+      "short_description": "pidstat — see gtfobins.github.io",
+      "capability_tags": [
+        "execution"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "shell"
+      ],
+      "intent": "spawn_shell"
+    },
+    {
+      "name": "pip",
+      "path": "",
+      "short_description": "pip — see gtfobins.github.io",
+      "capability_tags": [
+        "execution"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "shell"
+      ],
+      "intent": "spawn_shell"
+    },
+    {
+      "name": "pkexec",
+      "path": "",
+      "short_description": "pkexec — see gtfobins.github.io",
+      "capability_tags": [
+        "execution"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "shell"
+      ],
+      "intent": "spawn_shell"
+    },
+    {
+      "name": "pkg",
+      "path": "",
+      "short_description": "pkg — see gtfobins.github.io",
+      "capability_tags": [
+        "execution"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "command"
+      ],
+      "intent": "spawn_shell"
+    },
+    {
+      "name": "plymouth",
+      "path": "",
+      "short_description": "plymouth — see gtfobins.github.io",
+      "capability_tags": [
+        "execution"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "shell"
+      ],
+      "intent": "spawn_shell"
+    },
+    {
+      "name": "podman",
+      "path": "",
+      "short_description": "podman — see gtfobins.github.io",
+      "capability_tags": [
+        "execution"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "shell"
+      ],
+      "intent": "spawn_shell"
+    },
+    {
+      "name": "posh",
+      "path": "",
+      "short_description": "posh — see gtfobins.github.io",
+      "capability_tags": [
+        "execution"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "shell"
+      ],
+      "intent": "spawn_shell"
+    },
+    {
+      "name": "pr",
+      "path": "",
+      "short_description": "pr — see gtfobins.github.io",
+      "capability_tags": [
+        "collection"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "file-read"
+      ],
+      "intent": "read"
+    },
+    {
+      "name": "procmail",
+      "path": "",
+      "short_description": "procmail — see gtfobins.github.io",
+      "capability_tags": [
+        "execution"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "command"
+      ],
+      "intent": "spawn_shell"
+    },
+    {
+      "name": "psftp",
+      "path": "",
+      "short_description": "psftp — see gtfobins.github.io",
+      "capability_tags": [
+        "execution"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "shell"
+      ],
+      "intent": "spawn_shell"
+    },
+    {
+      "name": "psql",
+      "path": "",
+      "short_description": "psql — see gtfobins.github.io",
+      "capability_tags": [
+        "execution"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "shell"
+      ],
+      "intent": "spawn_shell"
+    },
+    {
+      "name": "ptx",
+      "path": "",
+      "short_description": "ptx — see gtfobins.github.io",
+      "capability_tags": [
+        "collection"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "file-read"
+      ],
+      "intent": "read"
+    },
+    {
+      "name": "puppet",
+      "path": "",
+      "short_description": "puppet — see gtfobins.github.io",
+      "capability_tags": [
+        "collection",
+        "execution",
+        "persistence"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "file-read",
+        "file-write",
+        "shell"
+      ],
+      "intent": "spawn_shell"
+    },
+    {
+      "name": "pwsh",
+      "path": "",
+      "short_description": "pwsh — see gtfobins.github.io",
+      "capability_tags": [
+        "execution",
+        "persistence"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "file-write",
+        "shell"
+      ],
+      "intent": "spawn_shell"
+    },
+    {
+      "name": "pygmentize",
+      "path": "",
+      "short_description": "pygmentize — see gtfobins.github.io",
+      "capability_tags": [
+        "collection"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "file-read"
+      ],
+      "intent": "read"
+    },
+    {
+      "name": "pyright",
+      "path": "",
+      "short_description": "pyright — see gtfobins.github.io",
+      "capability_tags": [
+        "collection"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "file-read"
+      ],
+      "intent": "read"
+    },
+    {
+      "name": "python",
+      "path": "",
+      "short_description": "python — see gtfobins.github.io",
+      "capability_tags": [
+        "collection",
+        "command_and_control",
+        "execution",
+        "persistence"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "file-read",
+        "file-write",
+        "library-load",
+        "reverse-shell",
+        "shell"
+      ],
+      "intent": "exfiltrate"
+    },
+    {
+      "name": "qpdf",
+      "path": "",
+      "short_description": "qpdf — see gtfobins.github.io",
+      "capability_tags": [
+        "collection"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "file-read"
+      ],
+      "intent": "read"
+    },
+    {
+      "name": "R",
+      "path": "",
+      "short_description": "R — see gtfobins.github.io",
+      "capability_tags": [
+        "execution"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "shell"
+      ],
+      "intent": "spawn_shell"
+    },
+    {
+      "name": "rake",
+      "path": "",
+      "short_description": "rake — see gtfobins.github.io",
+      "capability_tags": [
+        "collection"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "file-read"
+      ],
+      "intent": "read"
+    },
+    {
+      "name": "ranger",
+      "path": "",
+      "short_description": "ranger — see gtfobins.github.io",
+      "capability_tags": [
+        "execution"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "shell"
+      ],
+      "intent": "spawn_shell"
+    },
+    {
+      "name": "rc",
+      "path": "",
+      "short_description": "rc — see gtfobins.github.io",
+      "capability_tags": [
+        "execution"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "shell"
+      ],
+      "intent": "spawn_shell"
+    },
+    {
+      "name": "readelf",
+      "path": "",
+      "short_description": "readelf — see gtfobins.github.io",
+      "capability_tags": [
+        "collection"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "file-read"
+      ],
+      "intent": "read"
+    },
+    {
+      "name": "redcarpet",
+      "path": "",
+      "short_description": "redcarpet — see gtfobins.github.io",
+      "capability_tags": [
+        "collection"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "file-read"
+      ],
+      "intent": "read"
+    },
+    {
+      "name": "redis",
+      "path": "",
+      "short_description": "redis — see gtfobins.github.io",
+      "capability_tags": [
+        "persistence"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "file-write"
+      ],
+      "intent": "modify"
+    },
+    {
+      "name": "restic",
+      "path": "",
+      "short_description": "restic — see gtfobins.github.io",
+      "capability_tags": [
+        "execution"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "command",
+        "shell"
+      ],
+      "intent": "spawn_shell"
+    },
+    {
+      "name": "rev",
+      "path": "",
+      "short_description": "rev — see gtfobins.github.io",
+      "capability_tags": [
+        "collection"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "file-read"
+      ],
+      "intent": "read"
+    },
+    {
+      "name": "rlwrap",
+      "path": "",
+      "short_description": "rlwrap — see gtfobins.github.io",
+      "capability_tags": [
+        "execution",
+        "persistence"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "file-write",
+        "shell"
+      ],
+      "intent": "spawn_shell"
+    },
+    {
+      "name": "rpm",
+      "path": "",
+      "short_description": "rpm — see gtfobins.github.io",
+      "capability_tags": [
+        "execution"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "command",
+        "shell"
+      ],
+      "intent": "spawn_shell"
+    },
+    {
+      "name": "rpmdb",
+      "path": "",
+      "short_description": "rpmdb — see gtfobins.github.io",
+      "capability_tags": [
+        "execution"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "shell"
+      ],
+      "intent": "spawn_shell"
+    },
+    {
+      "name": "rpmquery",
+      "path": "",
+      "short_description": "rpmquery — see gtfobins.github.io",
+      "capability_tags": [
+        "execution"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "shell"
+      ],
+      "intent": "spawn_shell"
+    },
+    {
+      "name": "rpmverify",
+      "path": "",
+      "short_description": "rpmverify — see gtfobins.github.io",
+      "capability_tags": [
+        "execution"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "shell"
+      ],
+      "intent": "spawn_shell"
+    },
+    {
+      "name": "rsync",
+      "path": "",
+      "short_description": "rsync — see gtfobins.github.io",
+      "capability_tags": [
+        "execution"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "shell"
+      ],
+      "intent": "spawn_shell"
+    },
+    {
+      "name": "rsyslogd",
+      "path": "",
+      "short_description": "rsyslogd — see gtfobins.github.io",
+      "capability_tags": [
+        "execution"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "command"
+      ],
+      "intent": "spawn_shell"
+    },
+    {
+      "name": "rtorrent",
+      "path": "",
+      "short_description": "rtorrent — see gtfobins.github.io",
+      "capability_tags": [
+        "execution"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "shell"
+      ],
+      "intent": "spawn_shell"
+    },
+    {
+      "name": "ruby",
+      "path": "",
+      "short_description": "ruby — see gtfobins.github.io",
+      "capability_tags": [
+        "collection",
+        "command_and_control",
+        "execution",
+        "persistence"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "file-read",
+        "file-write",
+        "library-load",
+        "reverse-shell",
+        "shell"
+      ],
+      "intent": "exfiltrate"
+    },
+    {
+      "name": "run-parts",
+      "path": "",
+      "short_description": "run-parts — see gtfobins.github.io",
+      "capability_tags": [
+        "execution"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "shell"
+      ],
+      "intent": "spawn_shell"
+    },
+    {
+      "name": "runscript",
+      "path": "",
+      "short_description": "runscript — see gtfobins.github.io",
+      "capability_tags": [
+        "execution"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "shell"
+      ],
+      "intent": "spawn_shell"
+    },
+    {
+      "name": "rustc",
+      "path": "",
+      "short_description": "rustc — see gtfobins.github.io",
+      "capability_tags": [
+        "collection",
+        "persistence"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "file-read",
+        "file-write"
+      ],
+      "intent": "modify"
+    },
+    {
+      "name": "rustdoc",
+      "path": "",
+      "short_description": "rustdoc — see gtfobins.github.io",
+      "capability_tags": [
+        "collection",
+        "persistence"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "file-read",
+        "file-write"
+      ],
+      "intent": "modify"
+    },
+    {
+      "name": "rustfmt",
+      "path": "",
+      "short_description": "rustfmt — see gtfobins.github.io",
+      "capability_tags": [
+        "collection"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "file-read"
+      ],
+      "intent": "read"
+    },
+    {
+      "name": "rustup",
+      "path": "",
+      "short_description": "rustup — see gtfobins.github.io",
+      "capability_tags": [
+        "execution"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "command",
+        "shell"
+      ],
+      "intent": "spawn_shell"
+    },
+    {
+      "name": "sash",
+      "path": "",
+      "short_description": "sash — see gtfobins.github.io",
+      "capability_tags": [
+        "execution"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "shell"
+      ],
+      "intent": "spawn_shell"
+    },
+    {
+      "name": "scanmem",
+      "path": "",
+      "short_description": "scanmem — see gtfobins.github.io",
+      "capability_tags": [
+        "execution"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "shell"
+      ],
+      "intent": "spawn_shell"
+    },
+    {
+      "name": "scp",
+      "path": "",
+      "short_description": "scp — see gtfobins.github.io",
+      "capability_tags": [
+        "execution"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "shell"
+      ],
+      "intent": "spawn_shell"
+    },
+    {
+      "name": "screen",
+      "path": "",
+      "short_description": "screen — see gtfobins.github.io",
+      "capability_tags": [
+        "execution",
+        "persistence"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "file-write",
+        "shell"
+      ],
+      "intent": "spawn_shell"
+    },
+    {
+      "name": "script",
+      "path": "",
+      "short_description": "script — see gtfobins.github.io",
+      "capability_tags": [
+        "execution",
+        "persistence"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "file-write",
+        "shell"
+      ],
+      "intent": "spawn_shell"
+    },
+    {
+      "name": "scrot",
+      "path": "",
+      "short_description": "scrot — see gtfobins.github.io",
+      "capability_tags": [
+        "execution"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "shell"
+      ],
+      "intent": "spawn_shell"
+    },
+    {
+      "name": "sed",
+      "path": "",
+      "short_description": "sed — see gtfobins.github.io",
+      "capability_tags": [
+        "collection",
+        "execution",
+        "persistence"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "file-read",
+        "file-write",
+        "shell"
+      ],
+      "intent": "spawn_shell"
+    },
+    {
+      "name": "service",
+      "path": "",
+      "short_description": "service — see gtfobins.github.io",
+      "capability_tags": [
+        "execution"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "shell"
+      ],
+      "intent": "spawn_shell"
+    },
+    {
+      "name": "setarch",
+      "path": "",
+      "short_description": "setarch — see gtfobins.github.io",
+      "capability_tags": [
+        "execution"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "shell"
+      ],
+      "intent": "spawn_shell"
+    },
+    {
+      "name": "setlock",
+      "path": "",
+      "short_description": "setlock — see gtfobins.github.io",
+      "capability_tags": [
+        "execution"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "shell"
+      ],
+      "intent": "spawn_shell"
+    },
+    {
+      "name": "sftp",
+      "path": "",
+      "short_description": "sftp — see gtfobins.github.io",
+      "capability_tags": [
+        "execution"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "shell"
+      ],
+      "intent": "spawn_shell"
+    },
+    {
+      "name": "sg",
+      "path": "",
+      "short_description": "sg — see gtfobins.github.io",
+      "capability_tags": [
+        "execution"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "shell"
+      ],
+      "intent": "spawn_shell"
+    },
+    {
+      "name": "shred",
+      "path": "",
+      "short_description": "shred — see gtfobins.github.io",
+      "capability_tags": [
+        "persistence"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "file-write"
+      ],
+      "intent": "modify"
+    },
+    {
+      "name": "shuf",
+      "path": "",
+      "short_description": "shuf — see gtfobins.github.io",
+      "capability_tags": [
+        "collection",
+        "persistence"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "file-read",
+        "file-write"
+      ],
+      "intent": "modify"
+    },
+    {
+      "name": "slsh",
+      "path": "",
+      "short_description": "slsh — see gtfobins.github.io",
+      "capability_tags": [
+        "execution"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "shell"
+      ],
+      "intent": "spawn_shell"
+    },
+    {
+      "name": "smbclient",
+      "path": "",
+      "short_description": "smbclient — see gtfobins.github.io",
+      "capability_tags": [
+        "execution"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "shell"
+      ],
+      "intent": "spawn_shell"
+    },
+    {
+      "name": "snap",
+      "path": "",
+      "short_description": "snap — see gtfobins.github.io",
+      "capability_tags": [
+        "execution"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "command"
+      ],
+      "intent": "spawn_shell"
+    },
+    {
+      "name": "socat",
+      "path": "",
+      "short_description": "socat — see gtfobins.github.io",
+      "capability_tags": [
+        "collection",
+        "command_and_control",
+        "execution",
+        "persistence"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "bind-shell",
+        "file-read",
+        "file-write",
+        "reverse-shell",
+        "shell"
+      ],
+      "intent": "exfiltrate"
+    },
+    {
+      "name": "socket",
+      "path": "",
+      "short_description": "socket — see gtfobins.github.io",
+      "capability_tags": [
+        "command_and_control"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "bind-shell",
+        "reverse-shell"
+      ],
+      "intent": "exfiltrate"
+    },
+    {
+      "name": "soelim",
+      "path": "",
+      "short_description": "soelim — see gtfobins.github.io",
+      "capability_tags": [
+        "collection"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "file-read"
+      ],
+      "intent": "read"
+    },
+    {
+      "name": "softlimit",
+      "path": "",
+      "short_description": "softlimit — see gtfobins.github.io",
+      "capability_tags": [
+        "execution"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "shell"
+      ],
+      "intent": "spawn_shell"
+    },
+    {
+      "name": "sort",
+      "path": "",
+      "short_description": "sort — see gtfobins.github.io",
+      "capability_tags": [
+        "collection",
+        "persistence"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "file-read",
+        "file-write"
+      ],
+      "intent": "modify"
+    },
+    {
+      "name": "split",
+      "path": "",
+      "short_description": "split — see gtfobins.github.io",
+      "capability_tags": [
+        "collection",
+        "execution",
+        "persistence"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "file-read",
+        "file-write",
+        "shell"
+      ],
+      "intent": "spawn_shell"
+    },
+    {
+      "name": "sqlite3",
+      "path": "",
+      "short_description": "sqlite3 — see gtfobins.github.io",
+      "capability_tags": [
+        "collection",
+        "execution",
+        "persistence"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "file-read",
+        "file-write",
+        "shell"
+      ],
+      "intent": "spawn_shell"
+    },
+    {
+      "name": "ss",
+      "path": "",
+      "short_description": "ss — see gtfobins.github.io",
+      "capability_tags": [
+        "collection"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "file-read"
+      ],
+      "intent": "read"
+    },
+    {
+      "name": "ssh",
+      "path": "",
+      "short_description": "ssh — see gtfobins.github.io",
+      "capability_tags": [
+        "collection",
+        "execution"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "file-read",
+        "shell"
+      ],
+      "intent": "spawn_shell"
+    },
+    {
+      "name": "ssh-agent",
+      "path": "",
+      "short_description": "ssh-agent — see gtfobins.github.io",
+      "capability_tags": [
+        "execution"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "shell"
+      ],
+      "intent": "spawn_shell"
+    },
+    {
+      "name": "ssh-copy-id",
+      "path": "",
+      "short_description": "ssh-copy-id — see gtfobins.github.io",
+      "capability_tags": [
+        "collection",
+        "persistence"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "file-read",
+        "file-write"
+      ],
+      "intent": "modify"
+    },
+    {
+      "name": "ssh-keygen",
+      "path": "",
+      "short_description": "ssh-keygen — see gtfobins.github.io",
+      "capability_tags": [
+        "execution"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "library-load"
+      ],
+      "intent": "spawn_shell"
+    },
+    {
+      "name": "ssh-keyscan",
+      "path": "",
+      "short_description": "ssh-keyscan — see gtfobins.github.io",
+      "capability_tags": [
+        "collection"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "file-read"
+      ],
+      "intent": "read"
+    },
+    {
+      "name": "sshfs",
+      "path": "",
+      "short_description": "sshfs — see gtfobins.github.io",
+      "capability_tags": [
+        "execution"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "command",
+        "shell"
+      ],
+      "intent": "spawn_shell"
+    },
+    {
+      "name": "sshpass",
+      "path": "",
+      "short_description": "sshpass — see gtfobins.github.io",
+      "capability_tags": [
+        "execution"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "shell"
+      ],
+      "intent": "spawn_shell"
+    },
+    {
+      "name": "sshuttle",
+      "path": "",
+      "short_description": "sshuttle — see gtfobins.github.io",
+      "capability_tags": [
+        "execution"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "shell"
+      ],
+      "intent": "spawn_shell"
+    },
+    {
+      "name": "start-stop-daemon",
+      "path": "",
+      "short_description": "start-stop-daemon — see gtfobins.github.io",
+      "capability_tags": [
+        "execution"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "shell"
+      ],
+      "intent": "spawn_shell"
+    },
+    {
+      "name": "stdbuf",
+      "path": "",
+      "short_description": "stdbuf — see gtfobins.github.io",
+      "capability_tags": [
+        "execution"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "shell"
+      ],
+      "intent": "spawn_shell"
+    },
+    {
+      "name": "strace",
+      "path": "",
+      "short_description": "strace — see gtfobins.github.io",
+      "capability_tags": [
+        "execution",
+        "persistence"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "file-write",
+        "shell"
+      ],
+      "intent": "spawn_shell"
+    },
+    {
+      "name": "strings",
+      "path": "",
+      "short_description": "strings — see gtfobins.github.io",
+      "capability_tags": [
+        "collection"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "file-read"
+      ],
+      "intent": "read"
+    },
+    {
+      "name": "su",
+      "path": "",
+      "short_description": "su — see gtfobins.github.io",
+      "capability_tags": [
+        "execution"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "shell"
+      ],
+      "intent": "spawn_shell"
+    },
+    {
+      "name": "sudo",
+      "path": "",
+      "short_description": "sudo — see gtfobins.github.io",
+      "capability_tags": [
+        "execution"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "shell"
+      ],
+      "intent": "spawn_shell"
+    },
+    {
+      "name": "sysctl",
+      "path": "",
+      "short_description": "sysctl — see gtfobins.github.io",
+      "capability_tags": [
+        "collection",
+        "execution"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "command",
+        "file-read"
+      ],
+      "intent": "read"
+    },
+    {
+      "name": "systemctl",
+      "path": "",
+      "short_description": "systemctl — see gtfobins.github.io",
+      "capability_tags": [
+        "execution"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "shell"
+      ],
+      "intent": "spawn_shell"
+    },
+    {
+      "name": "systemd-run",
+      "path": "",
+      "short_description": "systemd-run — see gtfobins.github.io",
+      "capability_tags": [
+        "execution"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "command",
+        "shell"
+      ],
+      "intent": "spawn_shell"
+    },
+    {
+      "name": "tac",
+      "path": "",
+      "short_description": "tac — see gtfobins.github.io",
+      "capability_tags": [
+        "collection"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "file-read"
+      ],
+      "intent": "read"
+    },
+    {
+      "name": "tail",
+      "path": "",
+      "short_description": "tail — see gtfobins.github.io",
+      "capability_tags": [
+        "collection"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "file-read"
+      ],
+      "intent": "read"
+    },
+    {
+      "name": "tar",
+      "path": "",
+      "short_description": "tar — see gtfobins.github.io",
+      "capability_tags": [
+        "collection",
+        "execution",
+        "persistence"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "file-read",
+        "file-write",
+        "shell"
+      ],
+      "intent": "spawn_shell"
+    },
+    {
+      "name": "task",
+      "path": "",
+      "short_description": "task — see gtfobins.github.io",
+      "capability_tags": [
+        "execution"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "shell"
+      ],
+      "intent": "spawn_shell"
+    },
+    {
+      "name": "taskset",
+      "path": "",
+      "short_description": "taskset — see gtfobins.github.io",
+      "capability_tags": [
+        "execution"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "shell"
+      ],
+      "intent": "spawn_shell"
+    },
+    {
+      "name": "tasksh",
+      "path": "",
+      "short_description": "tasksh — see gtfobins.github.io",
+      "capability_tags": [
+        "execution"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "shell"
+      ],
+      "intent": "spawn_shell"
+    },
+    {
+      "name": "tbl",
+      "path": "",
+      "short_description": "tbl — see gtfobins.github.io",
+      "capability_tags": [
+        "collection"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "file-read"
+      ],
+      "intent": "read"
+    },
+    {
+      "name": "tclsh",
+      "path": "",
+      "short_description": "tclsh — see gtfobins.github.io",
+      "capability_tags": [
+        "command_and_control",
+        "execution"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "library-load",
+        "reverse-shell",
+        "shell"
+      ],
+      "intent": "exfiltrate"
+    },
+    {
+      "name": "tcpdump",
+      "path": "",
+      "short_description": "tcpdump — see gtfobins.github.io",
+      "capability_tags": [
+        "execution",
+        "persistence"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "command",
+        "file-write"
+      ],
+      "intent": "modify"
+    },
+    {
+      "name": "tcsh",
+      "path": "",
+      "short_description": "tcsh — see gtfobins.github.io",
+      "capability_tags": [
+        "execution",
+        "persistence"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "file-write",
+        "shell"
+      ],
+      "intent": "spawn_shell"
+    },
+    {
+      "name": "tdbtool",
+      "path": "",
+      "short_description": "tdbtool — see gtfobins.github.io",
+      "capability_tags": [
+        "execution"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "shell"
+      ],
+      "intent": "spawn_shell"
+    },
+    {
+      "name": "tee",
+      "path": "",
+      "short_description": "tee — see gtfobins.github.io",
+      "capability_tags": [
+        "persistence"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "file-write"
+      ],
+      "intent": "modify"
+    },
+    {
+      "name": "telnet",
+      "path": "",
+      "short_description": "telnet — see gtfobins.github.io",
+      "capability_tags": [
+        "command_and_control",
+        "execution"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "reverse-shell",
+        "shell"
+      ],
+      "intent": "exfiltrate"
+    },
+    {
+      "name": "terraform",
+      "path": "",
+      "short_description": "terraform — see gtfobins.github.io",
+      "capability_tags": [
+        "collection"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "file-read"
+      ],
+      "intent": "read"
+    },
+    {
+      "name": "tex",
+      "path": "",
+      "short_description": "tex — see gtfobins.github.io",
+      "capability_tags": [
+        "execution"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "shell"
+      ],
+      "intent": "spawn_shell"
+    },
+    {
+      "name": "tic",
+      "path": "",
+      "short_description": "tic — see gtfobins.github.io",
+      "capability_tags": [
+        "collection"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "file-read"
+      ],
+      "intent": "read"
+    },
+    {
+      "name": "time",
+      "path": "",
+      "short_description": "time — see gtfobins.github.io",
+      "capability_tags": [
+        "execution"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "shell"
+      ],
+      "intent": "spawn_shell"
+    },
+    {
+      "name": "timeout",
+      "path": "",
+      "short_description": "timeout — see gtfobins.github.io",
+      "capability_tags": [
+        "execution"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "shell"
+      ],
+      "intent": "spawn_shell"
+    },
+    {
+      "name": "tmate",
+      "path": "",
+      "short_description": "tmate — see gtfobins.github.io",
+      "capability_tags": [
+        "execution"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "shell"
+      ],
+      "intent": "spawn_shell"
+    },
+    {
+      "name": "tmux",
+      "path": "",
+      "short_description": "tmux — see gtfobins.github.io",
+      "capability_tags": [
+        "collection",
+        "execution"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "file-read",
+        "shell"
+      ],
+      "intent": "spawn_shell"
+    },
+    {
+      "name": "top",
+      "path": "",
+      "short_description": "top — see gtfobins.github.io",
+      "capability_tags": [
+        "execution"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "shell"
+      ],
+      "intent": "spawn_shell"
+    },
+    {
+      "name": "torify",
+      "path": "",
+      "short_description": "torify — see gtfobins.github.io",
+      "capability_tags": [
+        "execution"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "shell"
+      ],
+      "intent": "spawn_shell"
+    },
+    {
+      "name": "torsocks",
+      "path": "",
+      "short_description": "torsocks — see gtfobins.github.io",
+      "capability_tags": [
+        "execution"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "shell"
+      ],
+      "intent": "spawn_shell"
+    },
+    {
+      "name": "troff",
+      "path": "",
+      "short_description": "troff — see gtfobins.github.io",
+      "capability_tags": [
+        "collection"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "file-read"
+      ],
+      "intent": "read"
+    },
+    {
+      "name": "tsc",
+      "path": "",
+      "short_description": "tsc — see gtfobins.github.io",
+      "capability_tags": [
+        "collection",
+        "persistence"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "file-read",
+        "file-write"
+      ],
+      "intent": "modify"
+    },
+    {
+      "name": "ul",
+      "path": "",
+      "short_description": "ul — see gtfobins.github.io",
+      "capability_tags": [
+        "collection"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "file-read"
+      ],
+      "intent": "read"
+    },
+    {
+      "name": "unexpand",
+      "path": "",
+      "short_description": "unexpand — see gtfobins.github.io",
+      "capability_tags": [
+        "collection"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "file-read"
+      ],
+      "intent": "read"
+    },
+    {
+      "name": "uniq",
+      "path": "",
+      "short_description": "uniq — see gtfobins.github.io",
+      "capability_tags": [
+        "collection"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "file-read"
+      ],
+      "intent": "read"
+    },
+    {
+      "name": "unshare",
+      "path": "",
+      "short_description": "unshare — see gtfobins.github.io",
+      "capability_tags": [
+        "execution"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "shell"
+      ],
+      "intent": "spawn_shell"
+    },
+    {
+      "name": "update-alternatives",
+      "path": "",
+      "short_description": "update-alternatives — see gtfobins.github.io",
+      "capability_tags": [
+        "persistence"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "file-write"
+      ],
+      "intent": "modify"
+    },
+    {
+      "name": "urlget",
+      "path": "",
+      "short_description": "urlget — see gtfobins.github.io",
+      "capability_tags": [
+        "collection"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "file-read"
+      ],
+      "intent": "read"
+    },
+    {
+      "name": "uuencode",
+      "path": "",
+      "short_description": "uuencode — see gtfobins.github.io",
+      "capability_tags": [
+        "collection"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "file-read"
+      ],
+      "intent": "read"
+    },
+    {
+      "name": "uv",
+      "path": "",
+      "short_description": "uv — see gtfobins.github.io",
+      "capability_tags": [
+        "execution"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "shell"
+      ],
+      "intent": "spawn_shell"
+    },
+    {
+      "name": "valgrind",
+      "path": "",
+      "short_description": "valgrind — see gtfobins.github.io",
+      "capability_tags": [
+        "execution"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "shell"
+      ],
+      "intent": "spawn_shell"
+    },
+    {
+      "name": "varnishncsa",
+      "path": "",
+      "short_description": "varnishncsa — see gtfobins.github.io",
+      "capability_tags": [
+        "persistence"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "file-write"
+      ],
+      "intent": "modify"
+    },
+    {
+      "name": "vi",
+      "path": "",
+      "short_description": "vi — see gtfobins.github.io",
+      "capability_tags": [
+        "collection",
+        "execution",
+        "persistence"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "file-read",
+        "file-write",
+        "shell"
+      ],
+      "intent": "spawn_shell"
+    },
+    {
+      "name": "vim",
+      "path": "",
+      "short_description": "vim — see gtfobins.github.io",
+      "capability_tags": [
+        "collection"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "file-read"
+      ],
+      "intent": "read"
+    },
+    {
+      "name": "virsh",
+      "path": "",
+      "short_description": "virsh — see gtfobins.github.io",
+      "capability_tags": [
+        "execution",
+        "persistence"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "command",
+        "file-write"
+      ],
+      "intent": "modify"
+    },
+    {
+      "name": "w3m",
+      "path": "",
+      "short_description": "w3m — see gtfobins.github.io",
+      "capability_tags": [
+        "collection"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "file-read"
+      ],
+      "intent": "read"
+    },
+    {
+      "name": "wall",
+      "path": "",
+      "short_description": "wall — see gtfobins.github.io",
+      "capability_tags": [
+        "collection"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "file-read"
+      ],
+      "intent": "read"
+    },
+    {
+      "name": "watch",
+      "path": "",
+      "short_description": "watch — see gtfobins.github.io",
+      "capability_tags": [
+        "execution"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "shell"
+      ],
+      "intent": "spawn_shell"
+    },
+    {
+      "name": "wc",
+      "path": "",
+      "short_description": "wc — see gtfobins.github.io",
+      "capability_tags": [
+        "collection"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "file-read"
+      ],
+      "intent": "read"
+    },
+    {
+      "name": "wg-quick",
+      "path": "",
+      "short_description": "wg-quick — see gtfobins.github.io",
+      "capability_tags": [
+        "execution"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "shell"
+      ],
+      "intent": "spawn_shell"
+    },
+    {
+      "name": "wget",
+      "path": "",
+      "short_description": "wget — see gtfobins.github.io",
+      "capability_tags": [
+        "collection",
+        "execution",
+        "persistence"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "file-read",
+        "file-write",
+        "shell"
+      ],
+      "intent": "spawn_shell"
+    },
+    {
+      "name": "whiptail",
+      "path": "",
+      "short_description": "whiptail — see gtfobins.github.io",
+      "capability_tags": [
+        "collection"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "file-read"
+      ],
+      "intent": "read"
+    },
+    {
+      "name": "wireshark",
+      "path": "",
+      "short_description": "wireshark — see gtfobins.github.io",
+      "capability_tags": [
+        "persistence"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "file-write"
+      ],
+      "intent": "modify"
+    },
+    {
+      "name": "xargs",
+      "path": "",
+      "short_description": "xargs — see gtfobins.github.io",
+      "capability_tags": [
+        "collection",
+        "execution"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "file-read",
+        "shell"
+      ],
+      "intent": "spawn_shell"
+    },
+    {
+      "name": "xdg-user-dir",
+      "path": "",
+      "short_description": "xdg-user-dir — see gtfobins.github.io",
+      "capability_tags": [
+        "execution"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "shell"
+      ],
+      "intent": "spawn_shell"
+    },
+    {
+      "name": "xdotool",
+      "path": "",
+      "short_description": "xdotool — see gtfobins.github.io",
+      "capability_tags": [
+        "execution"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "shell"
+      ],
+      "intent": "spawn_shell"
+    },
+    {
+      "name": "xmodmap",
+      "path": "",
+      "short_description": "xmodmap — see gtfobins.github.io",
+      "capability_tags": [
+        "collection"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "file-read"
+      ],
+      "intent": "read"
+    },
+    {
+      "name": "xmore",
+      "path": "",
+      "short_description": "xmore — see gtfobins.github.io",
+      "capability_tags": [
+        "collection"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "file-read"
+      ],
+      "intent": "read"
+    },
+    {
+      "name": "xpad",
+      "path": "",
+      "short_description": "xpad — see gtfobins.github.io",
+      "capability_tags": [
+        "collection"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "file-read"
+      ],
+      "intent": "read"
+    },
+    {
+      "name": "xxd",
+      "path": "",
+      "short_description": "xxd — see gtfobins.github.io",
+      "capability_tags": [
+        "collection",
+        "persistence"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "file-read",
+        "file-write"
+      ],
+      "intent": "modify"
+    },
+    {
+      "name": "xz",
+      "path": "",
+      "short_description": "xz — see gtfobins.github.io",
+      "capability_tags": [
+        "collection"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "file-read"
+      ],
+      "intent": "read"
+    },
+    {
+      "name": "yarn",
+      "path": "",
+      "short_description": "yarn — see gtfobins.github.io",
+      "capability_tags": [
+        "execution"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "shell"
+      ],
+      "intent": "spawn_shell"
+    },
+    {
+      "name": "yash",
+      "path": "",
+      "short_description": "yash — see gtfobins.github.io",
+      "capability_tags": [
+        "execution"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "shell"
+      ],
+      "intent": "spawn_shell"
+    },
+    {
+      "name": "yelp",
+      "path": "",
+      "short_description": "yelp — see gtfobins.github.io",
+      "capability_tags": [
+        "collection"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "file-read"
+      ],
+      "intent": "read"
+    },
+    {
+      "name": "yt-dlp",
+      "path": "",
+      "short_description": "yt-dlp — see gtfobins.github.io",
+      "capability_tags": [
+        "execution"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "shell"
+      ],
+      "intent": "spawn_shell"
+    },
+    {
+      "name": "yum",
+      "path": "",
+      "short_description": "yum — see gtfobins.github.io",
+      "capability_tags": [
+        "execution"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "command"
+      ],
+      "intent": "spawn_shell"
+    },
+    {
+      "name": "zathura",
+      "path": "",
+      "short_description": "zathura — see gtfobins.github.io",
+      "capability_tags": [
+        "execution"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "shell"
+      ],
+      "intent": "spawn_shell"
+    },
+    {
+      "name": "zcat",
+      "path": "",
+      "short_description": "zcat — see gtfobins.github.io",
+      "capability_tags": [
+        "collection"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "file-read"
+      ],
+      "intent": "read"
+    },
+    {
+      "name": "zgrep",
+      "path": "",
+      "short_description": "zgrep — see gtfobins.github.io",
+      "capability_tags": [
+        "collection"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "file-read"
+      ],
+      "intent": "read"
+    },
+    {
+      "name": "zic",
+      "path": "",
+      "short_description": "zic — see gtfobins.github.io",
+      "capability_tags": [
+        "execution"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "command"
+      ],
+      "intent": "spawn_shell"
+    },
+    {
+      "name": "zip",
+      "path": "",
+      "short_description": "zip — see gtfobins.github.io",
+      "capability_tags": [
+        "collection",
+        "execution"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "file-read",
+        "shell"
+      ],
+      "intent": "spawn_shell"
+    },
+    {
+      "name": "zsh",
+      "path": "",
+      "short_description": "zsh — see gtfobins.github.io",
+      "capability_tags": [
+        "collection",
+        "command_and_control",
+        "execution",
+        "persistence"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "file-read",
+        "file-write",
+        "reverse-shell",
+        "shell"
+      ],
+      "intent": "exfiltrate"
+    },
+    {
+      "name": "zsoelim",
+      "path": "",
+      "short_description": "zsoelim — see gtfobins.github.io",
+      "capability_tags": [
+        "collection"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "file-read"
+      ],
+      "intent": "read"
+    },
+    {
+      "name": "zypper",
+      "path": "",
+      "short_description": "zypper — see gtfobins.github.io",
+      "capability_tags": [
+        "execution"
+      ],
+      "mitre_techniques": [],
+      "functions": [
+        "shell"
+      ],
+      "intent": "spawn_shell"
+    }
+  ]
+}
