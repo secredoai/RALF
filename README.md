@@ -1,7 +1,7 @@
 <p align="center">
   <h1 align="center">RALF</h1>
   <p align="center">
-    <strong>RALF (Runtime Action Logic Framework)</strong>
+    <strong>RALF (Runtime Action Logic Framework)</strong><br>
     <strong>Pre-execution framework for AI agents.<br>Blocks dangerous commands before they run.</strong>
   </p>
   <p align="center">
