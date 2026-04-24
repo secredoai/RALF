@@ -255,11 +255,11 @@ def handle_bash(cfg: AdapterConfig, command: str) -> int:
         cfg.deny(f"RALF-free BLOCK (bash): {verdict.reason} [score {verdict.score}]")
         return 0
     if verdict.decision == "review":
-        # stderr — visible to the user but doesn't gate the call.
-        print(
-            f"RALF-free REVIEW (bash, score {verdict.score}): {verdict.reason}",
-            file=sys.stderr,
-        )
+        reason = f"RALF-free REVIEW (bash, score {verdict.score}): {verdict.reason}"
+        if cfg.emit_warn is not None:
+            cfg.emit_warn(reason)
+        else:
+            print(reason, file=sys.stderr)
     return 0
 
 
@@ -474,11 +474,14 @@ def handle_file_write(
         )
         return 0
     if decision == "review":
-        print(
+        reason = (
             f"RALF-free REVIEW ({tool_name.lower()}, score {combined_score}): "
-            f"{combined_reason}",
-            file=sys.stderr,
+            f"{combined_reason}"
         )
+        if cfg.emit_warn is not None:
+            cfg.emit_warn(reason)
+        else:
+            print(reason, file=sys.stderr)
     return 0
 
 

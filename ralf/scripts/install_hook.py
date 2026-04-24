@@ -84,18 +84,6 @@ _AGENTS: dict[str, AgentProfile] = {
             ),
         ),
     ),
-    "codex": AgentProfile(
-        name="codex",
-        settings_path=Path(os.path.expanduser("~/.codex/settings.json")),
-        description="Codex CLI (~/.codex/settings.json)",
-        hooks=(
-            HookEntry(
-                event_key="PreToolUse",
-                matcher="shell|write|patch",
-                command="python3 -m ralf.adapters.codex_cli",
-            ),
-        ),
-    ),
 }
 
 

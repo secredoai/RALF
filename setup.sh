@@ -35,7 +35,7 @@ fail()  { printf '%s ✗%s %s\n' "$RED"   "$RESET" "$*" >&2; exit 1; }
 REPO_ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
 # Supported agents. Keep in sync with ralf/scripts/install_hook.py::_AGENTS.
-SUPPORTED_AGENTS=(claude gemini codex)
+SUPPORTED_AGENTS=(claude gemini)
 SELECTED_AGENTS=()
 
 # Populated by resolve_pip() — may be "pip3", "pip", or "python3 -m pip".
@@ -140,19 +140,19 @@ ${BOLD}Which agents should RALF wire up?${RESET}
 
   1) Claude Code only           (~/.claude/settings.json)
   2) Gemini CLI only            (~/.gemini/settings.json)
-  3) Codex CLI only             (~/.codex/settings.json)
-  4) All agents (Claude + Gemini + Codex)
-  5) Skip hooks — pip install only
+  3) Both Claude and Gemini
+  4) Skip hooks — pip install only
+
+${DIM}Codex CLI: run 'ralf-free codex sync' after install to import rules.${RESET}
 
 EOF
     local reply
-    read -r -p "Select [1-5, default 1]: " reply
+    read -r -p "Select [1-4, default 1]: " reply
     case "${reply:-1}" in
         1) SELECTED_AGENTS=(claude) ;;
         2) SELECTED_AGENTS=(gemini) ;;
-        3) SELECTED_AGENTS=(codex) ;;
-        4) SELECTED_AGENTS=(claude gemini codex) ;;
-        5) SELECTED_AGENTS=() ;;
+        3) SELECTED_AGENTS=(claude gemini) ;;
+        4) SELECTED_AGENTS=() ;;
         *) warn "unknown choice, defaulting to claude"; SELECTED_AGENTS=(claude) ;;
     esac
 }

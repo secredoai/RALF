@@ -39,6 +39,15 @@ def _deny(reason: str) -> None:
     print(json.dumps(output))
 
 
+def _warn(reason: str) -> None:
+    """Emit a REVIEW warning via stderr AND additionalContext."""
+    print(
+        f"\033[33mRALF REVIEW\033[0m: {reason}  "
+        f"[Check dashboard: http://127.0.0.1:7433]",
+        file=sys.stderr,
+    )
+
+
 _CONFIG = AdapterConfig(
     agent=AGENT_NAME,
     session_id_env_keys=(
@@ -47,6 +56,7 @@ _CONFIG = AdapterConfig(
         "CLAUDE_PROJECT_DIR",
     ),
     deny=_deny,
+    emit_warn=_warn,
 )
 
 

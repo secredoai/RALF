@@ -136,7 +136,7 @@ def _build_parser() -> argparse.ArgumentParser:
         help="Wire the PreToolUse hook into one agent's settings (claude|gemini)",
     )
     p_install_agent.add_argument(
-        "--agent", choices=["claude", "gemini", "codex"], required=True,
+        "--agent", choices=["claude", "gemini"], required=True,
         help="Target agent",
     )
 
